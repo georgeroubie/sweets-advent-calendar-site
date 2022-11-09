@@ -1,8 +1,5 @@
 import { useContext } from 'react';
 import styled from 'styled-components';
-import CircleSnowFlake from '../../components/icons/CircleSnowFlake';
-import SimpleSnowFlake from '../../components/icons/SimpleSnowFlake';
-import StarSnowFlake from '../../components/icons/StarSnowFlake';
 import PageWrapper from '../../components/layout/PageWrapper';
 import Description from '../../components/typography/Description';
 import Title from '../../components/typography/Title';
@@ -21,9 +18,6 @@ const Home = () => {
   return (
     <PageWrapper>
       <Title>Welcome {userName}</Title>
-      <CircleSnowFlake />
-      <StarSnowFlake />
-      <SimpleSnowFlake />
       <Description>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
