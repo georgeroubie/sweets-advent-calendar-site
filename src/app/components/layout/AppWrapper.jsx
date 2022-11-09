@@ -5,24 +5,6 @@ import _CircleSnowFlake from '../icons/CircleSnowFlake';
 import _SimpleSnowFlake from '../icons/SimpleSnowFlake';
 import _StarSnowFlake from '../icons/StarSnowFlake';
 
-const CircleSnowFlake = styled(_CircleSnowFlake)`
-  width: 50px;
-  height: 50px;
-  fill: #fff;
-`;
-
-const SimpleSnowFlake = styled(_SimpleSnowFlake)`
-  width: 50px;
-  height: 50px;
-  fill: #fff;
-`;
-
-const StarSnowFlake = styled(_StarSnowFlake)`
-  width: 50px;
-  height: 50px;
-  fill: #fff;
-`;
-
 const Wrapper = styled.main`
   width: 100vw;
   height: 100vh;
@@ -33,6 +15,49 @@ const Wrapper = styled.main`
     css`
       height: ${$height};
     `};
+`;
+
+const SnowFlake = css`
+  width: 2rem;
+  height: 2rem;
+  fill: #fff;
+  position: fixed;
+`;
+
+const LeftCircleSnowFlake = styled(_CircleSnowFlake)`
+  ${SnowFlake}
+  top: 1.3rem;
+  left: 1rem;
+`;
+
+const LeftSimpleSnowFlake = styled(_SimpleSnowFlake)`
+  ${SnowFlake}
+  top: 0.4rem;
+  left: 2.2rem;
+`;
+
+const LeftStarSnowFlake = styled(_StarSnowFlake)`
+  ${SnowFlake}
+  top: 1.3rem;
+  left: 3.3rem;
+`;
+
+const RightCircleSnowFlake = styled(_CircleSnowFlake)`
+  ${SnowFlake}
+  top: 1.3rem;
+  right: 1rem;
+`;
+
+const RightSimpleSnowFlake = styled(_SimpleSnowFlake)`
+  ${SnowFlake}
+  top: 0.4rem;
+  right: 2.2rem;
+`;
+
+const RightStarSnowFlake = styled(_StarSnowFlake)`
+  ${SnowFlake}
+  top: 1.3rem;
+  right: 3.3rem;
 `;
 
 function getHeight() {
@@ -58,9 +83,12 @@ const AppWrapper = ({ children }) => {
 
   return (
     <Wrapper $height={height}>
-      <StarSnowFlake />
-      <SimpleSnowFlake />
-      <CircleSnowFlake />
+      <LeftStarSnowFlake />
+      <LeftSimpleSnowFlake />
+      <LeftCircleSnowFlake />
+      <RightCircleSnowFlake />
+      <RightSimpleSnowFlake />
+      <RightStarSnowFlake />
       {children}
     </Wrapper>
   );
