@@ -1,6 +1,27 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import styled, { css } from 'styled-components';
+import _CircleSnowFlake from '../icons/CircleSnowFlake';
+import _SimpleSnowFlake from '../icons/SimpleSnowFlake';
+import _StarSnowFlake from '../icons/StarSnowFlake';
+
+const CircleSnowFlake = styled(_CircleSnowFlake)`
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+`;
+
+const SimpleSnowFlake = styled(_SimpleSnowFlake)`
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+`;
+
+const StarSnowFlake = styled(_StarSnowFlake)`
+  width: 50px;
+  height: 50px;
+  fill: #fff;
+`;
 
 const Wrapper = styled.main`
   width: 100vw;
@@ -35,7 +56,14 @@ const AppWrapper = ({ children }) => {
     };
   }, [height]);
 
-  return <Wrapper $height={height}>{children}</Wrapper>;
+  return (
+    <Wrapper $height={height}>
+      <StarSnowFlake />
+      <SimpleSnowFlake />
+      <CircleSnowFlake />
+      {children}
+    </Wrapper>
+  );
 };
 
 AppWrapper.propTypes = {
