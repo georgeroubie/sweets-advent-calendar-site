@@ -5,9 +5,14 @@ const Wrapper = styled.div`
   border: ${({ theme: { borderSize, colors } }) => `${borderSize.large} solid ${colors.borderPrimary}`};
   width: 100%;
   height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+`;
+
+const InnerWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  border-radius: 10px;
+  margin: -${({ theme: { borderSize } }) => borderSize.small};
 `;
 
 const Day = styled.div`
@@ -47,11 +52,13 @@ const Calendar = () => {
 
   return (
     <Wrapper>
-      {days.map((d) => (
-        <Day key={d} ref={dayRef} style={{ height: width }}>
-          {d}
-        </Day>
-      ))}
+      <InnerWrapper>
+        {days.map((d) => (
+          <Day key={d} ref={dayRef} style={{ height: width }}>
+            {d}
+          </Day>
+        ))}
+      </InnerWrapper>
     </Wrapper>
   );
 };
