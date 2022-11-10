@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import styled, { css } from 'styled-components';
-import _CircleSnowFlake from '../icons/CircleSnowFlake';
-import _SimpleSnowFlake from '../icons/SimpleSnowFlake';
-import _StarSnowFlake from '../icons/StarSnowFlake';
 
 const Wrapper = styled.main`
   width: 100vw;
@@ -15,49 +12,6 @@ const Wrapper = styled.main`
     css`
       height: ${$height};
     `};
-`;
-
-const SnowFlake = css`
-  width: ${({ theme: { fontSize } }) => fontSize.xlarge};
-  height: ${({ theme: { fontSize } }) => fontSize.xlarge};
-  fill: ${({ theme: { colors } }) => colors.textPrimary};
-  position: fixed;
-`;
-
-const LeftCircleSnowFlake = styled(_CircleSnowFlake)`
-  ${SnowFlake}
-  top: 1.3rem;
-  left: 1rem;
-`;
-
-const LeftSimpleSnowFlake = styled(_SimpleSnowFlake)`
-  ${SnowFlake}
-  top: 0.4rem;
-  left: 2.2rem;
-`;
-
-const LeftStarSnowFlake = styled(_StarSnowFlake)`
-  ${SnowFlake}
-  top: 1.3rem;
-  left: 3.3rem;
-`;
-
-const RightCircleSnowFlake = styled(_CircleSnowFlake)`
-  ${SnowFlake}
-  top: 1.3rem;
-  right: 1rem;
-`;
-
-const RightSimpleSnowFlake = styled(_SimpleSnowFlake)`
-  ${SnowFlake}
-  top: 0.4rem;
-  right: 2.2rem;
-`;
-
-const RightStarSnowFlake = styled(_StarSnowFlake)`
-  ${SnowFlake}
-  top: 1.3rem;
-  right: 3.3rem;
 `;
 
 function getHeight() {
@@ -81,17 +35,7 @@ const AppWrapper = ({ children }) => {
     };
   }, [height]);
 
-  return (
-    <Wrapper $height={height}>
-      <LeftStarSnowFlake />
-      <LeftSimpleSnowFlake />
-      <LeftCircleSnowFlake />
-      <RightCircleSnowFlake />
-      <RightSimpleSnowFlake />
-      <RightStarSnowFlake />
-      {children}
-    </Wrapper>
-  );
+  return <Wrapper $height={height}>{children}</Wrapper>;
 };
 
 AppWrapper.propTypes = {
