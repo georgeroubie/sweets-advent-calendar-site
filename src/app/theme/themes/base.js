@@ -12,6 +12,10 @@ const baseTheme = {
     large: '1.5rem',
     xlarge: '2rem',
   },
+  borderSize: {
+    small: '0.1rem',
+    large: '0.4rem',
+  },
   lineHeight: {
     xsmall: '1rem',
     small: '1.3rem',
