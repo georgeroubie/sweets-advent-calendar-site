@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Wrapper = styled.main`
   margin: ${({ theme: { spacing } }) => spacing.xlarge} auto;
   padding: 0 ${({ theme: { spacing } }) => spacing.large};
-  max-width: 900px;
+  max-width: 800px;
 `;
 
 const PageWrapper = ({ children }) => {
