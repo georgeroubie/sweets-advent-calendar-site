@@ -16,6 +16,9 @@ const baseTheme = {
     small: '0.1rem',
     large: '0.4rem',
   },
+  borderRadius: {
+    normal: '10px',
+  },
   lineHeight: {
     xsmall: '1rem',
     small: '1.3rem',
