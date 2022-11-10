@@ -18,9 +18,9 @@ const Wrapper = styled.main`
 `;
 
 const SnowFlake = css`
-  width: 2rem;
-  height: 2rem;
-  fill: #fff;
+  width: ${({ theme: { fontSize } }) => fontSize.xlarge};
+  height: ${({ theme: { fontSize } }) => fontSize.xlarge};
+  fill: ${({ theme: { colors } }) => colors.textPrimary};
   position: fixed;
 `;
 
