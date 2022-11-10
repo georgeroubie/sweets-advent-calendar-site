@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  border: 0.5rem solid green;
+  border: 0.5rem solid #fff;
   width: 100%;
   height: auto;
   display: flex;
@@ -10,13 +10,17 @@ const Wrapper = styled.div`
 `;
 
 const Day = styled.div`
-  width: 16%;
+  cursor: pointer;
+  width: 20%;
   height: 150px;
   display: inline-flex;
   min-width: 0;
   align-items: center;
   justify-content: center;
+  font-size: ${({ theme: { fontSize } }) => fontSize.large};
   font-weight: ${({ theme: { fontWeight } }) => fontWeight.bold};
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
 `;
 
 const Calendar = () => {
