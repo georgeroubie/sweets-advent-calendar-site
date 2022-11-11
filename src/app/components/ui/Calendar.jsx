@@ -138,18 +138,20 @@ const Calendar = () => {
 
   return (
     <Wrapper>
-      <TopLeftStarSnowFlake />
-      <TopLeftSimpleSnowFlake />
-      <TopLeftCircleSnowFlake />
-      <TopRightCircleSnowFlake />
-      <TopRightSimpleSnowFlake />
-      <TopRightStarSnowFlake />
-      <BottomLeftCircleSnowFlake />
-      <BottomLeftSimpleSnowFlake />
-      <BottomLeftStarSnowFlake />
-      <BottomRightCircleSnowFlake />
-      <BottomRightSimpleSnowFlake />
-      <BottomRightStarSnowFlake />
+      <>
+        <TopLeftStarSnowFlake />
+        <TopLeftSimpleSnowFlake />
+        <TopLeftCircleSnowFlake />
+        <TopRightCircleSnowFlake />
+        <TopRightSimpleSnowFlake />
+        <TopRightStarSnowFlake />
+        <BottomLeftCircleSnowFlake />
+        <BottomLeftSimpleSnowFlake />
+        <BottomLeftStarSnowFlake />
+        <BottomRightCircleSnowFlake />
+        <BottomRightSimpleSnowFlake />
+        <BottomRightStarSnowFlake />
+      </>
       <InnerWrapper>
         <DaysList>
           {days.map((d) => (
