@@ -1,5 +1,5 @@
+import Calendar from '../../components/calendar/Calendar';
 import PageWrapper from '../../components/layout/PageWrapper';
-import Calendar from '../../components/ui/Calendar';
 
 const Home = () => {
   return (
