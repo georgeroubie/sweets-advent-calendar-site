@@ -117,21 +117,22 @@ const BottomRightStarSnowFlake = styled(_StarSnowFlake)`
 
 const Calendar = () => {
   const dayRef = useRef(null);
-  const [width, setWidth] = useState(0);
+  const [height, setHeight] = useState(0);
   const days = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
 
   useEffect(() => {
-    function changeWidthValue() {
-      const currentWidth = dayRef.current?.offsetWidth;
-      if (currentWidth !== width) {
-        setWidth(dayRef.current?.offsetWidth);
+    function changeHeightValue() {
+      // Make all the days in the calendar squares
+      const width = dayRef.current?.offsetWidth;
+      if (width !== height) {
+        setHeight(dayRef.current?.offsetWidth);
       }
     }
 
-    changeWidthValue();
-    window.addEventListener('resize', changeWidthValue);
+    changeHeightValue();
+    window.addEventListener('resize', changeHeightValue);
     return () => {
-      window.removeEventListener('resize', changeWidthValue);
+      window.removeEventListener('resize', changeHeightValue);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -155,7 +156,7 @@ const Calendar = () => {
       <InnerWrapper>
         <DaysList>
           {days.map((d) => (
-            <Day key={d} ref={dayRef} style={{ height: width }}>
+            <Day key={d} ref={dayRef} style={{ height }}>
               {d}
             </Day>
           ))}
