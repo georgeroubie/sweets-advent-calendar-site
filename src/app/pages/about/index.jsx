@@ -1,19 +1,71 @@
+import { useNavigate } from 'react-router-dom';
+import styled from 'styled-components';
+import Container from '../../components/layout/Container';
 import PageWrapper from '../../components/layout/PageWrapper';
 import Description from '../../components/typography/Description';
+import Subtitle from '../../components/typography/Subtitle';
 import Title from '../../components/typography/Title';
+import Paypal from './Paypal';
+
+const Hyperlink = styled.a`
+  text-decoration: underline;
+  display: inline-block;
+`;
 
 const About = () => {
+  const navigate = useNavigate();
+
+  function onBackHandler() {
+    navigate('/');
+  }
+
   return (
     <PageWrapper>
-      <Title>About us</Title>
-      <Description>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-        its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-        opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
-        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
-        will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
-        accident, sometimes on purpose (injected humour and the like).
-      </Description>
+      <Container>
+        <Title onBack={onBackHandler}>About</Title>
+        <Subtitle>Donation</Subtitle>
+        <Description>
+          Buy me a coffee or a beer:&nbsp;
+          <Paypal />
+        </Description>
+        <Subtitle>Info</Subtitle>
+        <Description>An advent calendar with desert recipes.</Description>
+        <Subtitle>Privacy</Subtitle>
+        <Description>This site does not use any kind of cookies or tracking.</Description>
+        <Subtitle>Code</Subtitle>
+        <Description>
+          You can find the code of this web application on my GitHub page. If you like it give the repository a star
+          on&nbsp;
+          <Hyperlink
+            href="https://github.com/georgeroubie/sweets-advent-calendar-site"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </Hyperlink>
+          .
+        </Description>
+        <Subtitle>Creator</Subtitle>
+        <Description>
+          My name is George Roubie and you can follow me on&nbsp;
+          <Hyperlink href="https://www.linkedin.com/in/georgeroubie" target="_blank" rel="noreferrer">
+            LinkedIn
+          </Hyperlink>
+          ,&nbsp;
+          <Hyperlink href="https://george-roubie.medium.com" target="_blank" rel="noreferrer">
+            Medium
+          </Hyperlink>
+          ,&nbsp;
+          <Hyperlink href="https://codepen.io/georgeroubie" target="_blank" rel="noreferrer">
+            Codepen
+          </Hyperlink>
+          &nbsp;and&nbsp;
+          <Hyperlink href="https://github.com/georgeroubie" target="_blank" rel="noreferrer">
+            GitHub
+          </Hyperlink>
+          .
+        </Description>
+      </Container>
     </PageWrapper>
   );
 };
