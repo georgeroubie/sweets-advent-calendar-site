@@ -1,16 +1,22 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import Container from '../../components/layout/Container';
 import PageWrapper from '../../components/layout/PageWrapper';
 import Description from '../../components/typography/Description';
 import Title from '../../components/typography/Title';
 
 const NotFound = () => {
+  const navigate = useNavigate();
+
+  function onBackHandler() {
+    navigate('/');
+  }
+
   return (
     <PageWrapper>
-      <Title>Oops :(</Title>
-      <Description>The page you are looking for does not exist!</Description>
-      <Description>
-        Click <Link to="/">here</Link> to go to home page.
-      </Description>
+      <Container>
+        <Title onBack={onBackHandler}>Oops :(</Title>
+        <Description>The page you are looking for does not exist!</Description>
+      </Container>
     </PageWrapper>
   );
 };
