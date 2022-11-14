@@ -61,7 +61,7 @@ const Recipes = ({ activeRecipe, setActiveRecipe }) => {
     return RecipesComponents[activeRecipe - 1];
   }, [activeRecipe, RecipesComponents]);
 
-  return <Recipe />;
+  return <Recipe setActiveRecipe={setActiveRecipe} />;
 };
 
 Recipes.propTypes = {
