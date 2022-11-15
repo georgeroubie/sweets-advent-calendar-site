@@ -1,9 +1,10 @@
 const baseTheme = {
   spacing: {
+    xsmall: '0.7rem',
     small: '0.85rem',
     normal: '1rem',
     large: '1.5rem',
-    xlarge: '2rem',
+    xlarge: '3rem',
   },
   fontSize: {
     xsmall: '0.7rem',
