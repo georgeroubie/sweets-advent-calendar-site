@@ -32,6 +32,19 @@ const baseTheme = {
     semiBold: 600,
     bold: 700,
   },
+  colors: {
+    backgroundPrimary:
+      'linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(31,208,80,0.5508797268907564) 0%, rgba(208,31,31,1) 28%)',
+    backgroundSecondary: '#D01F1F',
+    borderPrimary: '#fff',
+    textPrimary: '#fff',
+    successBackgroundPrimary: '#00bc8b',
+    warningBackgroundPrimary: '#ffc200',
+    warningTextPrimary: '#000000',
+    dangerBackgroundPrimary: '#ff606A',
+    dangerTextPrimary: '#dfdfdf',
+    dangerBackgroundSecondary: '#fa747c',
+  },
 };
 
 export default baseTheme;
