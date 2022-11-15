@@ -16,7 +16,7 @@ const Day = styled.div`
   min-width: 0;
   align-items: center;
   justify-content: center;
-  font-size: ${({ theme: { fontSize } }) => fontSize.large};
+  font-size: ${({ theme: { fontSize } }) => fontSize.xlarge};
   font-weight: ${({ theme: { fontWeight } }) => fontWeight.bold};
   border-bottom: ${({ theme: { borderSize, colors } }) => `${borderSize.small} solid ${colors.borderPrimary}`};
   border-right: ${({ theme: { borderSize, colors } }) => `${borderSize.small} solid ${colors.borderPrimary}`};
