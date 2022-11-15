@@ -20,12 +20,14 @@ const InfoIcon = styled(_InfoIcon)`
 
 const Home = () => {
   return (
-    <PageWrapper>
+    <>
       <NavLink to="/about">
         <InfoIcon />
       </NavLink>
-      <Calendar />
-    </PageWrapper>
+      <PageWrapper>
+        <Calendar />
+      </PageWrapper>
+    </>
   );
 };
 
