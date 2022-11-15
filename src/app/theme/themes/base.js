@@ -1,6 +1,6 @@
 const baseTheme = {
   spacing: {
-    xsmall: '0.7rem',
+    xsmall: '0.5rem',
     small: '0.85rem',
     normal: '1rem',
     large: '1.5rem',
