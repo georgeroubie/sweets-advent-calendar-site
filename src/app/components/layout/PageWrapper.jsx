@@ -14,6 +14,8 @@ const InnerWrapper = styled.div`
   height: auto;
   border-radius: ${({ theme: { borderRadius } }) => borderRadius.normal};
   position: relative;
+  background: ${({ theme: { colors } }) => colors.backgroundSecondary};
+  border-radius: ${({ theme: { borderRadius } }) => borderRadius.normal};
 `;
 
 const ChildrenWrapper = styled.div`
