@@ -14,8 +14,8 @@ const NavLink = styled(_NavLink)`
 `;
 
 const InfoIcon = styled(_InfoIcon)`
-  width: ${({ theme: { fontSize } }) => fontSize.large};
-  height: ${({ theme: { fontSize } }) => fontSize.large};
+  width: ${({ theme: { fontSize } }) => fontSize.xlarge};
+  height: ${({ theme: { fontSize } }) => fontSize.xlarge};
 `;
 
 const Home = () => {
