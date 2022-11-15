@@ -4,7 +4,7 @@ import _BackIcon from '../icons/Back';
 
 const Wrapper = styled.h1`
   font-size: ${({ theme: { fontSize } }) => fontSize.xlarge};
-  line-height: ${({ theme: { lineHeight } }) => lineHeight.xlarge};
+  line-height: ${({ theme: { lineHeight } }) => lineHeight.large};
   font-weight: ${({ theme: { fontWeight } }) => fontWeight.bold};
   margin: 0 0 ${({ theme: { spacing } }) => spacing.large};
 
@@ -20,6 +20,7 @@ const Wrapper = styled.h1`
 
 const BackIcon = styled(_BackIcon)`
   width: ${({ theme: { fontSize } }) => fontSize.large};
+  flex-shrink: 0;
 `;
 
 const Title = ({ children, onBack }) => {
