@@ -1,5 +1,5 @@
 # General information
-An advent calendar with desert recipes.
+An advent calendar with desert recipes. 
 
 # Development
 
