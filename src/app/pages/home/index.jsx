@@ -7,9 +7,8 @@ import PageWrapper from '../../components/layout/PageWrapper';
 const NavLink = styled(_NavLink)`
   text-decoration: none;
   position: fixed;
-  top: ${({ theme: { spacing } }) => spacing.xsmall};
-  left: 50%;
-  transform: translateX(-50%);
+  right: ${({ theme: { spacing } }) => spacing.xsmall};
+  bottom: 0;
   display: inline-block;
 `;
 
