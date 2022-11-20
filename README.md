@@ -6,7 +6,7 @@ An advent calendar with desert recipes.
 ## Requirements
 - [Nodejs](https://nodejs.org/en/download)
 - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)
-- [VSCode](https://code.visualstudio.com/download) 
+- [VSCode](https://code.visualstudio.com/download)
 
 ## Installation
 1. Download project
