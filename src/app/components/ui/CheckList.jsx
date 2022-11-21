@@ -1,25 +1,26 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Subtitle from '../typography/Subtitle';
+import Checkbox from './Checkbox';
 
-const List = styled.ul``;
+const List = styled.div`
+  margin-bottom: ${({ theme: { spacing } }) => spacing.xlarge};
+`;
 
-const ListItem = styled.li``;
-
-const Measure = styled.strong``;
+const Unit = styled.strong``;
 
 const Description = styled.span``;
 
-const CheckList = ({ title, list }) => {
+const CheckList = ({ id, title, list }) => {
   return (
     <>
       {title && <Subtitle>{title}</Subtitle>}
       <List>
-        {list.map(({ measure, description }, index) => (
-          <ListItem key={index}>
-            {measure && <Measure>{measure}</Measure>}
+        {list.map(({ unit, description }, index) => (
+          <Checkbox key={index} id={`${id}_list_item_${index}`}>
+            {unit && <Unit>{unit}&nbsp;</Unit>}
             <Description>{description}</Description>
-          </ListItem>
+          </Checkbox>
         ))}
       </List>
     </>
@@ -27,10 +28,11 @@ const CheckList = ({ title, list }) => {
 };
 
 CheckList.propTypes = {
+  id: PropTypes.string.isRequired,
   title: PropTypes.string,
   list: PropTypes.arrayOf(
     PropTypes.shape({
-      measure: PropTypes.string,
+      unit: PropTypes.string,
       description: PropTypes.string.isRequired,
     }),
   ).isRequired,
