@@ -1,13 +1,25 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import SmallSubtitle from '../typography/SmallSubtitle';
 import Subtitle from '../typography/Subtitle';
-import Checkbox from './Checkbox';
+import Radio from './Radio';
 
 const List = styled.div`
+  position: relative;
   margin-bottom: ${({ theme: { spacing } }) => spacing.xlarge};
-`;
 
-const Unit = styled.strong``;
+  &:before {
+    content: '';
+    display: flex;
+    width: ${({ theme: { borderSize } }) => borderSize.small};
+    height: 100%;
+    background-color: ${({ theme: { colors } }) => colors.textPrimary};
+    position: absolute;
+    left: calc(${({ theme: { fontSize, borderSize } }) => `${fontSize.xlarge} / 2 - ${borderSize.small} / 2`});
+    top: 0;
+    z-index: 0;
+  }
+`;
 
 const Description = styled.span``;
 
@@ -16,11 +28,11 @@ const StepsList = ({ id, title, list }) => {
     <>
       {title && <Subtitle>{title}</Subtitle>}
       <List>
-        {list.map(({ unit, description }, index) => (
-          <Checkbox key={index} id={`${id}_list_item_${index}`}>
-            {unit && <Unit>{unit}&nbsp;</Unit>}
+        {list.map(({ subtitle, description }, index) => (
+          <Radio key={index} id={`${id}_list_item_${index}`}>
+            {subtitle && <SmallSubtitle>{subtitle}</SmallSubtitle>}
             <Description>{description}</Description>
-          </Checkbox>
+          </Radio>
         ))}
       </List>
     </>
@@ -32,7 +44,7 @@ StepsList.propTypes = {
   title: PropTypes.string,
   list: PropTypes.arrayOf(
     PropTypes.shape({
-      unit: PropTypes.string,
+      subtitle: PropTypes.string,
       description: PropTypes.string.isRequired,
     }),
   ).isRequired,
