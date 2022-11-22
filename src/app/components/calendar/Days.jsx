@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import styled from 'styled-components';
+import Notification from '../ui/Notification';
 
 const DaysList = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: -${({ theme: { borderSize } }) => borderSize.small};
+  position: relative;
 `;
 
 const Day = styled.div`
@@ -25,14 +27,16 @@ const Day = styled.div`
 const Days = ({ setActiveRecipe }) => {
   const dayRef = useRef(null);
   const [height, setHeight] = useState(0);
-  const days = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
+  const [message, setMessage] = useState(undefined);
+  const year = 2022;
+  const month = 11;
+  const monthLabel = 'December';
+  const days = [...Array(25).keys()].map((d) => d + 1);
 
-  const [currentDay, currentMonth] = useMemo(() => {
+  const [currentDay, currentMonth, currentYear] = useMemo(() => {
     const date = new Date();
-    return [date.getDate(), date.getMonth() + 1];
+    return [date.getDate(), date.getMonth() + 1, date.getFullYear()];
   }, []);
-
-  console.log(currentDay);
 
   useEffect(() => {
     function changeHeightValue() {
@@ -52,15 +56,16 @@ const Days = ({ setActiveRecipe }) => {
   }, []);
 
   function handleDayClick(d) {
-    if (currentMonth !== 11) {
-      alert('Wait until December, be a good kid because santa is watching!');
-      return;
-    }
+    if (currentYear === year) {
+      if (currentMonth !== month) {
+        setMessage(`Wait until ${monthLabel}, be a good kid because santa is watching!`);
+        return;
+      }
 
-    console.log(currentDay, d);
-    if (d > currentDay) {
-      alert(`Wait until ${d} December to get your recipe, don't be naughty!`);
-      return;
+      if (d > currentDay) {
+        setMessage(`Wait until ${d} ${monthLabel} to get your recipe, don't be naughty!`);
+        return;
+      }
     }
 
     setActiveRecipe(d);
@@ -68,6 +73,7 @@ const Days = ({ setActiveRecipe }) => {
 
   return (
     <DaysList>
+      {message && <Notification message={message} setMessage={setMessage} />}
       {days.map((d) => (
         <Day key={d} ref={dayRef} style={{ height }} onClick={() => handleDayClick(d)}>
           {d}
