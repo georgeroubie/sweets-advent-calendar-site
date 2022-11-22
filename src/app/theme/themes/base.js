@@ -7,11 +7,10 @@ const baseTheme = {
     xlarge: '3rem',
   },
   fontSize: {
-    xsmall: '0.7rem',
-    small: '0.85rem',
     normal: '1rem',
     large: '1.5rem',
-    xlarge: '2rem',
+    xlarge: '1.8rem',
+    xxlarge: '2rem',
   },
   borderSize: {
     small: '0.1rem',
@@ -21,11 +20,10 @@ const baseTheme = {
     normal: '10px',
   },
   lineHeight: {
-    xsmall: '1rem',
-    small: '1.3rem',
     normal: '1.5rem',
-    large: '2.3rem',
-    xlarge: '3rem',
+    large: '1.7rem',
+    xlarge: '2rem',
+    xxlarge: '2.3rem',
   },
   fontWeight: {
     normal: 400,
@@ -38,12 +36,6 @@ const baseTheme = {
     backgroundSecondary: '#D01F1F',
     borderPrimary: '#fff',
     textPrimary: '#fff',
-    successBackgroundPrimary: '#00bc8b',
-    warningBackgroundPrimary: '#ffc200',
-    warningTextPrimary: '#000000',
-    dangerBackgroundPrimary: '#ff606A',
-    dangerTextPrimary: '#dfdfdf',
-    dangerBackgroundSecondary: '#fa747c',
   },
 };
 
