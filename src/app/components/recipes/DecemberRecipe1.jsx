@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import Container from '../layout/Container';
 import Title from '../typography/Title';
 import CheckList from '../ui/CheckList';
+import StepsList from '../ui/StepsList';
 
 const DecemberRecipe1 = ({ setActiveRecipe }) => {
   function resetActiveRecipe() {
@@ -83,7 +84,7 @@ const DecemberRecipe1 = ({ setActiveRecipe }) => {
     <Container>
       <Title onBack={resetActiveRecipe}>Caramel Macchiato Cheesecake</Title>
       <CheckList id="ingredients_dec_1" title="Ingredients" list={ingredients} />
-      <CheckList id="directions_dec_1" title="Directions" list={directions} />
+      <StepsList id="directions_dec_1" title="Directions" list={directions} />
     </Container>
   );
 };
