@@ -12,8 +12,8 @@ const DaysList = styled.div`
 
 const Day = styled.div`
   cursor: pointer;
-  width: 20%;
-  height: 20%;
+  width: 25%;
+  height: 25%;
   display: inline-flex;
   min-width: 0;
   align-items: center;
@@ -22,6 +22,11 @@ const Day = styled.div`
   font-weight: ${({ theme: { fontWeight } }) => fontWeight.bold};
   border-bottom: ${({ theme: { borderSize, colors } }) => `${borderSize.small} solid ${colors.borderPrimary}`};
   border-right: ${({ theme: { borderSize, colors } }) => `${borderSize.small} solid ${colors.borderPrimary}`};
+
+  @media (min-width: ${({ theme: { screens } }) => screens.medium}) {
+    width: 20%;
+    height: 20%;
+  }
 `;
 
 const Days = ({ setActiveRecipe }) => {
