@@ -12,6 +12,9 @@ const baseTheme = {
     xlarge: '1.8rem',
     xxlarge: '2rem',
   },
+  screens: {
+    medium: '670px',
+  },
   borderSize: {
     small: '0.1rem',
     large: '0.4rem',
