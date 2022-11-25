@@ -9,7 +9,7 @@ const NavLink = styled(_NavLink)`
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 0;
+  top: ${({ theme: { spacing } }) => spacing.xsmall};
   display: inline-block;
 `;
 
