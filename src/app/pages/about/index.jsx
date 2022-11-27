@@ -30,6 +30,11 @@ const About = () => {
         </Description>
         <Subtitle>Info</Subtitle>
         <Description>An advent calendar with desert recipes.</Description>
+        <Subtitle>Recipes</Subtitle>
+        <Description>
+          The recipes are not mine, I found them online. In each recipe, you will find the URL of the site where I found
+          it.
+        </Description>
         <Subtitle>Privacy</Subtitle>
         <Description>This site does not use any kind of cookies or tracking.</Description>
         <Subtitle>Code</Subtitle>
