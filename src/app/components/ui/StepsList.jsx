@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
+import React from 'react';
 import styled from 'styled-components';
-import SmallSubtitle from '../typography/SmallSubtitle';
+import _SmallSubtitle from '../typography/SmallSubtitle';
 import Subtitle from '../typography/Subtitle';
 import Radio from './Radio';
 
@@ -21,6 +22,12 @@ const List = styled.div`
   }
 `;
 
+const SmallSubtitle = styled(_SmallSubtitle)`
+  margin-left: calc(${({ theme: { fontSize } }) => fontSize.xlarge} + ${({ theme: { spacing } }) => spacing.normal});
+  margin-top: ${({ theme: { fontSize } }) => fontSize.large};
+  margin-bottom: ${({ theme: { fontSize } }) => fontSize.large};
+`;
+
 const Description = styled.span``;
 
 const StepsList = ({ id, title, list }) => {
@@ -28,11 +35,16 @@ const StepsList = ({ id, title, list }) => {
     <>
       {title && <Subtitle>{title}</Subtitle>}
       <List>
-        {list.map(({ subtitle, description }, index) => (
-          <Radio key={index} id={`${id}_list_item_${index}`}>
-            {subtitle && <SmallSubtitle>{subtitle}</SmallSubtitle>}
-            <Description>{description}</Description>
-          </Radio>
+        {list.map((item, index) => (
+          <React.Fragment key={index}>
+            {item.title ? (
+              <SmallSubtitle>{item.title}</SmallSubtitle>
+            ) : (
+              <Radio id={`${id}_list_item_${index}`}>
+                <Description>{item.description}</Description>
+              </Radio>
+            )}
+          </React.Fragment>
         ))}
       </List>
     </>
@@ -44,8 +56,8 @@ StepsList.propTypes = {
   title: PropTypes.string,
   list: PropTypes.arrayOf(
     PropTypes.shape({
-      subtitle: PropTypes.string,
-      description: PropTypes.string.isRequired,
+      title: PropTypes.string,
+      description: PropTypes.string,
     }),
   ).isRequired,
 };
