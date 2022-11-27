@@ -10,7 +10,6 @@ const Wrapper = styled.div`
 const CheckboxInput = styled.input`
   margin-right: ${({ theme: { spacing } }) => spacing.small};
   cursor: pointer;
-  accent-color: #fff;
 `;
 
 const Label = styled.label`
