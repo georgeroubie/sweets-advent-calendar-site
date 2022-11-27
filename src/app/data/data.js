@@ -1,80 +1,137 @@
 const recipes = [
   // DEC 1
   {
-    title: 'Caramel Macchiato Cheesecake',
+    title: 'Greek Christmas "melomakarono" pie',
+    url: 'https://akispetretzikis.com/en/recipe/6195/melomakaronopita',
     ingredients: [
       {
-        unit: '2 cups',
-        description: 'graham cracker crumbs',
+        title: 'For the syrup',
       },
       {
-        unit: '1/2 cup',
-        description: 'butter, melted',
+        unit: '400 gr',
+        description: 'granulated sugar',
       },
       {
-        unit: '2 tablespoons',
-        description: 'white sugar',
+        unit: '250 gr',
+        description: 'water',
       },
       {
-        unit: '3 (8 ounce) packages',
-        description: 'cream cheese, softened',
-      },
-      {
-        unit: '1 cup',
-        description: 'white sugar',
+        unit: '1',
+        description: 'stick(s) cinnamon',
       },
       {
         unit: '3',
-        description: 'eggs',
+        description: 'cloves',
       },
       {
-        unit: '1 (8 ounce) container',
-        description: 'sour cream',
+        unit: '1/2',
+        description: 'orange',
       },
       {
-        unit: '1/4 cup',
-        description: 'brewed espresso or strong coffee',
+        unit: '70 gr',
+        description: 'honey',
       },
       {
-        unit: '2 teaspoons',
-        description: 'vanilla extract',
+        title: 'For the melomakarono pie',
       },
       {
-        description: 'pressurized whipped cream',
+        unit: '200 gr',
+        description: 'seed oil',
       },
       {
-        description: 'caramel ice cream topping',
+        unit: '90 gr',
+        description: ' olive oil',
+      },
+      {
+        unit: '1 teaspoon(s)',
+        description: 'cinnamon',
+      },
+      {
+        unit: '1/3 teaspoon(s)',
+        description: 'cloves',
+      },
+      {
+        unit: '1/4 teaspoon(s)',
+        description: 'nutmeg',
+      },
+      {
+        unit: '30 gr',
+        description: 'icing sugar',
+      },
+      {
+        unit: '200 gr',
+        description: 'orange juice',
+      },
+      {
+        description: 'orange juice',
+      },
+      {
+        unit: '1 level teaspoon(s)',
+        description: 'baking soda',
+      },
+      {
+        unit: '500 gr',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '100 gr',
+        description: 'semolina, fine',
+      },
+      {
+        title: 'To serve',
+      },
+      {
+        description: 'honey',
+      },
+
+      {
+        description: 'walnuts',
       },
     ],
     directions: [
       {
-        subtitle: 'Step 1',
-        description:
-          'Preheat oven to 350 degrees F (175 degrees C). Lightly coat a 9-inch springform pan with nonstick cooking spray.',
+        title: 'For the syrup',
       },
       {
-        subtitle: 'Step 2',
         description:
-          'Mix together the graham cracker crumbs, melted butter, and 2 tablespoons of sugar until well combined. Press into the bottom of the prepared springform pan, and 1 inch up the sides. Bake in preheated oven for 8 minutes, then remove to cool on a wire rack.',
+          'In a saucepan add the sugar, water, cinnamon, cloves, orange, and transfer it over medium heat. Let the mixture come to a boil until the sugar melts.',
       },
       {
-        subtitle: 'Step 3',
-        description: 'Reduce oven temperature to 325 degrees F (165 degrees C).',
+        description: 'Remove it from the heat and add the honey. ',
       },
       {
-        subtitle: 'Step 4',
-        description:
-          'Beat the softened cream cheese in a large bowl with an electric mixer until fluffy. Gradually add 1 cup of sugar, beating until blended. Add eggs one at a time, beating well after each addition. Stir in sour cream, espresso and vanilla. Pour batter into the baked and cooled crust.',
+        description: 'Set the syrup aside to cool.',
       },
       {
-        subtitle: 'Step 5',
-        description:
-          'Bake cheesecake in the preheated oven for 1 hour and 5 minutes; then turn the oven off, partially open the door and allow the cheesecake to rest for 15 minutes more. Remove from the oven, and run a knife around the edges. Cool cheesecake on a wire rack to room temperature, then cover the springform pan with plastic wrap, and chill in the refrigerator for 8 hours.',
+        title: 'For the melomakarono pie',
       },
       {
-        subtitle: 'Step 6',
+        description: 'Preheat the oven to 190ο C (370ο F) set to fan.',
+      },
+      {
+        description: 'In a bowl add the seed oil, olive oil, cinnamon, cloves, nutmeg, icing sugar, and whisk well.',
+      },
+      {
+        description: 'Add the orange juice, the zest, the baking soda, and whisk.',
+      },
+      {
+        description: 'In a bowl add the flour, the semolina, and mix.',
+      },
+      {
         description:
-          'To serve, cut the cheesecake into wedges and garnish each slice with whipped cream and caramel sauce.',
+          'Transfer the dry ingredients to the bowl with the wet ingredients and fold gently with a serving spoon. ',
+      },
+      {
+        description: 'Transfer the mixture to a 28 cm baking pan and spread it with your hands.',
+      },
+      {
+        description: 'Cut into pieces and bake the pie for 45-50 minutes.',
+      },
+      {
+        description: 'Remove the pie from the oven and immediately pour the cold syrup over it with a ladle.',
+      },
+      {
+        description: 'Allow 1 hour for the syrup to be absorbed and serve with honey and walnuts.',
       },
     ],
   },
