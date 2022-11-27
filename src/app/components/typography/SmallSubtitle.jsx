@@ -8,12 +8,17 @@ const Wrapper = styled.h3`
   margin: 0 0 ${({ theme: { spacing } }) => spacing.xsmall};
 `;
 
-const SmallSubtitle = ({ children }) => {
-  return <Wrapper>{children}</Wrapper>;
+const SmallSubtitle = ({ className, children }) => {
+  return <Wrapper className={className}>{children}</Wrapper>;
 };
 
 SmallSubtitle.propTypes = {
+  className: PropTypes.string,
   children: PropTypes.node.isRequired,
+};
+
+SmallSubtitle.defaultProps = {
+  className: null,
 };
 
 export default SmallSubtitle;
