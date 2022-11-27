@@ -10,10 +10,9 @@ const Wrapper = styled.div`
   position: relative;
 `;
 
-const CheckboxInput = styled.input`
+const RadioInput = styled.input`
   margin-right: ${({ theme: { spacing } }) => spacing.normal};
   cursor: pointer;
-  accent-color: ${({ theme: { colors } }) => colors.backgroundSecondary};
   width: ${({ theme: { fontSize } }) => fontSize.xlarge};
   height: ${({ theme: { fontSize } }) => fontSize.xlarge};
   flex-shrink: 0;
@@ -32,7 +31,7 @@ const Radio = ({ id, children }) => {
 
   return (
     <Wrapper>
-      <CheckboxInput type="radio" id={id} name={id} checked={checked} onChange={handleOnChange} />
+      <RadioInput type="radio" id={id} name={id} checked={checked} onChange={handleOnChange} />
       <Label htmlFor={id}>{children}</Label>
     </Wrapper>
   );
