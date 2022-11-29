@@ -869,17 +869,84 @@ const recipes = [
   },
   // DEC 12
   {
-    title: '',
+    title: 'Quick and easy almond chocolate meringue cookies',
+    url: 'https://akispetretzikis.com/en/recipe/6/eykola-kai-grhgora-mpiskota',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '2',
+        description: 'egg whites, from medium eggs, at room temperature',
+      },
+      {
+        unit: '1 pinch',
+        description: 'salt',
+      },
+      {
+        unit: '70 gr',
+        description: 'icing sugar',
+      },
+      {
+        unit: '120 gr',
+        description: 'almonds, blanched',
+      },
+      {
+        unit: '130 gr',
+        description: 'chocolate couverture',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'vanilla extract',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Preheat oven to 180* C (350* F) Fan.`,
+      },
+      {
+        description: `Beat the egg whites and salt in a mixer on high speed using the whisk attachment, until you create a fluffy meringue.`,
+      },
+      {
+        description: `Add the vanilla and icing sugar.
+        `,
+      },
+      {
+        description: `Beat for 10-15 minutes, until completely combined.
+        `,
+      },
+      {
+        description: `Beat the almonds in a food processor, until they break down into small pieces. Do not finely ground.
+        `,
+      },
+      {
+        description: `Add them to the mixer with the meringue.
+        `,
+      },
+      {
+        description: `Chop the chocolate into small pieces and add them to the mixer also.
+        `,
+      },
+      {
+        description: `Gently fold with a spatula to combine and transfer mixture to a bowl.
+        `,
+      },
+      {
+        description: `Line a baking pan with parchment paper.
+        `,
+      },
+      {
+        description: `Using a tablespoon, scoop up spoonfuls of cookie dough and drop in baking pan, using another spoon to help you.
+        `,
+      },
+      {
+        description: `Repeat the same process until the cookie dough is done.
+        `,
+      },
+      {
+        description: `Transfer baking pan to oven and turn the temperature off completely.
+        `,
+      },
+      {
+        description: `Leave the cookies in the oven for 8-12 hours. In this way the cookies will slowly bake in the heat the oven built up while preheating. If you want to cook them faster you can bake them at 100* C (212* F) Fan for 2 hours.
+        `,
       },
     ],
   },
