@@ -1539,17 +1539,80 @@ const recipes = [
   },
   // DEC 20
   {
-    title: '',
+    title: 'Banoffee mug cake',
+    url: 'https://akispetretzikis.com/en/recipe/6262/banoffee-mug-cake',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '30 gr',
+        description: 'butter',
+      },
+      {
+        unit: '60 gr',
+        description: 'banana',
+      },
+      {
+        unit: '1/2 teaspoon',
+        description: 'cinnamon',
+      },
+      {
+        unit: '40 gr',
+        description: 'brown sugar',
+      },
+      {
+        unit: '1',
+        description: 'egg, medium',
+      },
+      {
+        unit: '50 gr',
+        description: 'self-rising flour',
+      },
+      {
+        unit: '1/2 teaspoon',
+        description: 'vanilla extract',
+      },
+      {
+        unit: '1 pinch',
+        description: 'salt',
+      },
+      {
+        title: `To serve`,
+      },
+      {
+        description: 'banana',
+      },
+      {
+        description: 'whipped cream',
+      },
+      {
+        description: 'caramel sauce',
+      },
+      {
+        description: 'cookies',
+      },
+      {
+        description: 'mint',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Add the butter into a mug and cover it with plastic wrap. Microwave it at 800 Watt for 30 seconds.
+        `,
+      },
+      {
+        description: `Add the banana into cubes, the cinnamon, the sugar, and mix with a spoon.
+        `,
+      },
+      {
+        description: `Add the egg, flour, vanilla extract, salt, and mix well.
+        `,
+      },
+      {
+        description: `Transfer the mug to the microwave for 2 minutes at 800 Watt.
+        `,
+      },
+      {
+        description: `Serve with banana slices, whipped cream, caramel sauce, cookies, and mint.
+        `,
       },
     ],
   },
