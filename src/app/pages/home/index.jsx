@@ -5,14 +5,15 @@ import _InfoIcon from '../../components/icons/Info';
 import PageWrapper from '../../components/layout/PageWrapper';
 
 const NavLink = styled(_NavLink)`
-  text-decoration: none;
+  text-decoration: underline;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  top: ${({ theme: { spacing } }) => spacing.xsmall};
+  bottom: ${({ theme: { spacing } }) => spacing.xsmall};
   display: inline-block;
 `;
 
+// eslint-disable-next-line no-unused-vars
 const InfoIcon = styled(_InfoIcon)`
   width: ${({ theme: { fontSize } }) => fontSize.xlarge};
   height: ${({ theme: { fontSize } }) => fontSize.xlarge};
@@ -21,9 +22,7 @@ const InfoIcon = styled(_InfoIcon)`
 const Home = () => {
   return (
     <>
-      <NavLink to="/about">
-        <InfoIcon />
-      </NavLink>
+      <NavLink to="/about">ABOUT THIS SITE</NavLink>
       <PageWrapper>
         <Calendar />
       </PageWrapper>
