@@ -1134,17 +1134,101 @@ const recipes = [
   },
   // DEC 16
   {
-    title: '',
+    title: 'Cinnamon cookies',
+    url: 'https://akispetretzikis.com/en/recipe/1306/mpiskota-kanelas',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '210 gr',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '1/2 teaspoon',
+        description: 'baking powder',
+      },
+      {
+        unit: '1 tablespoon',
+        description: 'cinnamon',
+      },
+      {
+        unit: '120 gr',
+        description: 'butter',
+      },
+      {
+        unit: '90 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '120 gr',
+        description: 'brown sugar',
+      },
+      {
+        unit: '1 tablespoon',
+        description: 'vanilla extract',
+      },
+      {
+        unit: '1',
+        description: 'egg, medium',
+      },
+      {
+        unit: '1',
+        description: 'pinch salt',
+      },
+      {
+        title: 'For the coating',
+      },
+      {
+        unit: '2 tablespoon',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'cinnamon',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Preheat the oven to 180* C (350* F) set to fan.
+        `,
+      },
+      {
+        description: `In a bowl combine the flour, baking powder, and ground cinnamon with a spoon.
+        `,
+      },
+      {
+        description: `In a mixer’s bowl, add the butter cut into cubes, granulated sugar, brown sugar, and vanilla extract. Beat for 1 minute with the paddle attachment until the mixture becomes light and fluffy.
+        `,
+      },
+      {
+        description: `Remove the bowl from the mixer and add the egg.
+        `,
+      },
+      {
+        description: `Mix with a spatula until all of the ingredients are completely combined.
+        `,
+      },
+      {
+        description: `Knead the cookie dough with your hands. It should be quite soft.
+        `,
+      },
+      {
+        description: `Cut the dough into 18 pieces with a knife and shape each piece into a ball. Each ball should be about 30 g.
+        `,
+      },
+      {
+        description: `In a bowl add 2 tablespoons sugar and 1 teaspoon cinnamon. Mix with a spoon.
+        `,
+      },
+      {
+        description: `Dip all of the dough balls into the bowl with the cinnamon-sugar mixture, only on the one side, and place them on two baking pans that are lined with parchment paper.
+        `,
+      },
+      {
+        description: `Press the cookies lightly with your hands to spread them a little and bake for 12-15 minutes.
+        `,
+      },
+      {
+        description: `Allow 20 minutes for the cookies to cool and serve.
+        `,
       },
     ],
   },
