@@ -2007,7 +2007,7 @@ const recipes = [
   },
   // DEC 25
   {
-    title: `Akis' Greek Christmas honey cookies - Melomakarona`,
+    title: `Greek Christmas honey cookies - Melomakarona`,
     url: 'https://akispetretzikis.com/en/recipe/569/ta-melomakarona-toy-akh',
     ingredients: [
       {
