@@ -604,17 +604,52 @@ const recipes = [
   },
   // DEC 8
   {
-    title: '',
+    title: '4-ingredient cookie chocolate clusters',
+    url: 'https://akispetretzikis.com/en/recipe/6880/atomiko-mwsaiko-me-4-ylika',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '250 gr',
+        description: 'butter',
+      },
+      {
+        unit: '150 gr',
+        description: 'icing sugar',
+      },
+      {
+        unit: '50 gr',
+        description: 'cocoa powder',
+      },
+      {
+        unit: '250 gr',
+        description: 'digestive cookies',
+      },
+      {
+        description: 'cocoa powder',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Line a baking pan with parchment paper.`,
+      },
+      {
+        description: `In a bowl add the butter, icing sugar, and cocoa powder, and mix them with your hands wearing gloves or with a hand whisk, until you get a thick paste.
+        `,
+      },
+      {
+        description: `Add the cookies, crush them with your hands, and keep mixing.
+        `,
+      },
+      {
+        description: `Use a spoon or an ice cream scoop to shape the mixture into balls and then transfer them to the baking pan.
+        `,
+      },
+      {
+        description: `Transfer the pan to the freezer for 3-4 hours.
+        `,
+      },
+      {
+        description: `Remove the chocolate clusters from the freezer and serve them with some cocoa powder.
+        `,
       },
     ],
   },
