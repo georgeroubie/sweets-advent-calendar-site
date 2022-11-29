@@ -1927,17 +1927,81 @@ const recipes = [
   },
   // DEC 24
   {
-    title: '',
+    title: 'Greek almond snowballs - Kourabiedes',
+    url: 'https://akispetretzikis.com/en/recipe/5080/paradosiakoi-koyrampiedes',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '500 gr',
+        description: 'butter, at room temperature',
+      },
+      {
+        unit: '220 gr',
+        description: 'icing sugar',
+      },
+      {
+        unit: '1 gr',
+        description: 'vanilla powder',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'rosewater',
+      },
+      {
+        unit: '30 gr',
+        description: 'bitter almond liqueur, or brandy or rum',
+      },
+      {
+        unit: '200-280 gr',
+        description: 'almond slivers, or coarsely chopped, unsalted and toasted',
+      },
+      {
+        unit: '900 gr',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '1 pinch',
+        description: 'salt',
+      },
+      {
+        title: 'To assemble',
+      },
+      {
+        unit: '1 tablespoon',
+        description: 'rosewater',
+      },
+      {
+        unit: '300 gr',
+        description: 'icing sugar',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Preheat the oven to 180οC (350ο F) set to fan.
+        `,
+      },
+      {
+        description: `In a mixer’s bowl add the butter, the icing sugar, and beat with the paddle attachment at high speed, for 10-15 minutes, until the mixture is fluffy and white.
+        `,
+      },
+      {
+        description: `Add the vanilla powder, the rosewater, the bitter almond liqueur, and keep beating. Remove the bowl from the mixer.
+        `,
+      },
+      {
+        description: `Break down the almond slivers with your hands, in order to crumble them, and add them to a bowl. Add the flour, the salt, and put them in the mixer’s bowl.
+        `,
+      },
+      {
+        description: `Mix the mixture with a serving spoon, very softly so that it does not lose its volume. As soon as the ingredients are homogenized, mix with your hands.
+        `,
+      },
+      {
+        description: `Shape balls, 30 g each, and transfer to a baking pan lined with parchment paper. Lightly press the center with your finger and bake for 20-25 minutes. Follow the same process for the whole mixture.
+        `,
+      },
+      {
+        description: `Put a layer of the almond snowballs on a serving platter, spray with rosewater, and dust with icing sugar. Follow the same process for all of the snowballs and serve.
+        `,
       },
     ],
   },
