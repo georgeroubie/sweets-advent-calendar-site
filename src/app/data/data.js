@@ -1314,17 +1314,144 @@ const recipes = [
   },
   // DEC 18
   {
-    title: '',
+    title: 'Quick Apple Strudel',
+    url: 'https://akispetretzikis.com/en/recipe/1380/grhgoro-stroyntel-mhloy',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '75 gr',
+        description: 'raisins, golden',
+      },
+      {
+        unit: '2 tablespoons',
+        description: 'brandy',
+      },
+      {
+        unit: '1/2 slice',
+        description: 'bread, white, crust removed',
+      },
+      {
+        unit: '120 gr',
+        description: 'butter, unsalted, melted and at room temperature',
+      },
+      {
+        unit: '2',
+        description: 'Granny Smith apples, cut in half',
+      },
+      {
+        unit: '1',
+        description: 'red apple, cut in half',
+      },
+      {
+        unit: '50 gr',
+        description: 'walnuts, toasted and chopped, optional',
+      },
+      {
+        unit: '75 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'lime juice, of 1 lime',
+      },
+      {
+        unit: '1/4 teaspoon',
+        description: 'cinnamon, grated',
+      },
+      {
+        description: 'salt',
+      },
+      {
+        unit: '450 gr',
+        description: 'phyllo dough sheet',
+      },
+      {
+        unit: '1 1/2 teaspoons',
+        description: 'icing sugar',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Position the oven rack right below the middle level and preheat oven to 220* C (428* F) Fan.
+        `,
+      },
+      {
+        description: `Line a baking pan with parchment paper.
+        `,
+      },
+      {
+        description: `In a small bowl, combine the raisins with the cognac. Cover with plastic wrap and microwave for 1 minute at 800 watts. Remove and set aside.
+        `,
+      },
+      {
+        description: `In a food processor, pulse the bread about 6 times to get breadcrumbs.
+        `,
+      },
+      {
+        description: `Combine the breadcrumbs with 1 tablespoon melted butter in a 20 cm pan. Toast for about 2 minutes over medium heat. Stir often until they turn golden and transfer to a large bowl.
+        `,
+      },
+      {
+        description: `Remove the plastic wrap covering the bowl with the raisins. Drain and discard the juice. Add the raisins, apples, walnuts (optional), 50 g granulated sugar, lime juice, cinnamon and salt. Toss.
+        `,
+      },
+      {
+        title: 'To assemble:',
+      },
+      {
+        description: `Place a sheet of parchment paper, horizontally, on a working surface.
+        `,
+      },
+      {
+        description: `Place a sheet of puff pastry on the left side of the parchment. Brush with some melted butter and sprinkle with 25 g granulated sugar.
+        `,
+      },
+      {
+        description: `Place the second sheet of puff pastry on the right side of the parchment, making sure it covers about 10 cm of the first puff pastry. Brush with melted butter and sprinkle with ½ teaspoon of granulated sugar.
+        `,
+      },
+      {
+        description: `Repeat the same process with the remaining 8 sheets of puff pastry, brushing each one with melted butter and sprinkling with granulated sugar.
+        `,
+      },
+      {
+        description: `Add the filling along the lower edge of the puff pastry, leaving a border that is 6.5 cm from the front and 5 cm from the sides.
+        `,
+      },
+      {
+        description: `Begin by turning over the sides of the puff pastry to cover the filling and continue by turning over the front side of the puff pastry.
+        `,
+      },
+      {
+        description: `Start to roll into a log.
+        `,
+      },
+      {
+        description: `Transfer strudel to baking pan, placing seam side down.
+        `,
+      },
+      {
+        description: `Brush the remaining melted butter over the top and sprinkle with 1 teaspoon granulated sugar.
+        `,
+      },
+      {
+        description: `Use a sharp knife to score the strudel in 4 places to allow the steam to escape.
+        `,
+      },
+      {
+        description: `Bake for 15 minutes, rotating the pan while baking to ensure even baking.
+        `,
+      },
+      {
+        description: `When ready, remove from oven and set aside to cool a little.
+        `,
+      },
+      {
+        description: `While it is still warm, sprinkle with icing sugar before serving.
+        `,
+      },
+      {
+        description: `Cut into pieces and serve warm or at room temperature. You can also add a scoop of your favorite ice cream.
+        `,
       },
     ],
   },
