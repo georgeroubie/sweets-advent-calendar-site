@@ -1618,17 +1618,111 @@ const recipes = [
   },
   // DEC 21
   {
-    title: '',
+    title: 'Milk chocolate soufflé',
+    url: 'https://akispetretzikis.com/en/recipe/2718/soyfle-me-sokolata-galaktos',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '20 gr',
+        description: 'butter',
+      },
+      {
+        unit: '20 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '120 gr',
+        description: 'water',
+      },
+      {
+        unit: '30 gr',
+        description: 'cocoa powder',
+      },
+      {
+        unit: '30 gr',
+        description: 'milk chocolate couverture, finely chopped',
+      },
+      {
+        unit: '6',
+        description: 'egg whites, from medium eggs',
+      },
+      {
+        unit: '1 pinch',
+        description: 'salt',
+      },
+      {
+        unit: '70 gr',
+        description: 'icing sugar',
+      },
+      {
+        unit: '20 gr',
+        description: 'corn starch',
+      },
+      {
+        unit: '1 tablespoon',
+        description: 'vanilla extract',
+      },
+      {
+        unit: '1',
+        description: 'egg yolk',
+      },
+      {
+        title: 'To serve',
+      },
+      {
+        description: 'chocolate couverture, melted',
+      },
+      {
+        description: 'whipped cream',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Preheat oven to 180* C (350* F) Fan.
+        `,
+      },
+      {
+        description: `Grease 6 individual 9 cm ramekins with butter and coat with granulated sugar. Set aside until needed.
+        `,
+      },
+      {
+        description: `In a bowl, add the water, cocoa powder and milk chocolate couverture. Cover with plastic wrap and microwave for 1-1 ½ minutes at 800 Watts.
+        `,
+      },
+      {
+        description: `Remove from microwave and whisk until completely combined. Set it aside to cool.
+        `,
+      },
+      {
+        description: `In a mixer’s bowl, add the egg whites, salt and icing sugar.
+        `,
+      },
+      {
+        description: `Beat for 3-4 minutes until you create a meringue.
+        `,
+      },
+      {
+        description: `To the cool chocolate mixture add the corn starch, vanilla extract and egg yolk. Whisk until completely incorporated.
+        `,
+      },
+      {
+        description: `Add 1/3 of the meringue to the chocolate mixture and whisk.
+        `,
+      },
+      {
+        description: `Add the remaining meringue and gently fold with a spatula so that the volume isn’t lost.
+        `,
+      },
+      {
+        description: `Transfer to a measuring jug and fill the ramekins.
+        `,
+      },
+      {
+        description: `Bake for 15 minutes.
+        `,
+      },
+      {
+        description: `When ready, remove from oven and serve with melted couverture and whipped cream.
+        `,
       },
     ],
   },
