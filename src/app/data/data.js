@@ -536,17 +536,69 @@ const recipes = [
   },
   // DEC 7
   {
-    title: '',
+    title: 'Banoffee Sandwich Cookies',
+    url: 'https://akispetretzikis.com/en/recipe/1259/mpiskota-banoffee',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '270 gr',
+        description: 'butter',
+      },
+      {
+        unit: '100 gr',
+        description: 'icing sugar',
+      },
+      {
+        unit: '3 gr',
+        description: 'salt',
+      },
+      {
+        unit: '300 gr',
+        description: 'soft flour',
+      },
+      {
+        unit: '1 gr',
+        description: 'vanilla powder',
+      },
+      {
+        unit: '1/2 tablespoon',
+        description: 'cinnamon, powder',
+      },
+      {
+        title: 'For the filling',
+      },
+      {
+        unit: '400 gr',
+        description: 'dulce de leche',
+      },
+      {
+        description: 'icing sugar, for dusting',
+      },
+      {
+        unit: '100 gr',
+        description: 'chocolate couverture, very finely chopped',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Combine all of the ingredients for the dough in a food processor or a mixer with the paddle attachment. Beat until a dough starts to form. Since we want our cookies to be as crispy as possible, we don’t beat the dough for a long time. Also the reason we are using soft flour is because it doesn’t contain a lot of gluten.`,
+      },
+      {
+        description: `Remove the dough from the mixing bowl. Mold into a ball and wrap in plastic wrap. Refrigerate for 1 hour until it becomes firm, so that it is possible to roll it out.`,
+      },
+      {
+        description: `One hour later, preheat the oven to 190* C (374* F) Fan.`,
+      },
+      {
+        description: `Spread a sheet of parchment paper onto a counter or a working surface. Dust with flour and place the dough it. Dust with some more flour and cover with another sheet of parchment paper. Use a rolling pin to roll out the dough until it is 3 mm thick. Remove the parchment paper covering the dough. Use a circular cookie cutter 5-6 cm in diameter to cut out the cookies. If you don’t have a round cookie cutter you can use a teacup to cut out the shapes.`,
+      },
+      {
+        description: `Line 2 baking sheets with parchment paper. Place the cookies onto the baking sheet. You don’t have to leave too much space between them. Bake in the oven with the fan on, for 8-10 minutes. If you put both baking sheets in the oven at the same time, make sure to rotate them halfway through baking them. This way they will bake as evenly as possible. They should turn golden brown but don’t expect them to be hard as soon as you remove them from the oven. As soon as you remove them from the oven, allow .them to rest and cool for 5 minutes. Then, transfer them to a wire rack to cool completely.`,
+      },
+      {
+        description: `The dulce de leche should be prepared in advance.`,
+      },
+      {
+        description: `In a bowl, combine the dulce de leche with the chocolate. Mix with a spoon and transfer the mixture to a piping bag. Add a small amount to side of the cookie that was facing down on the pan. Cover with another cookie. Press lightly so that the mixture spreads in between the cookies. You can also decorate them with some icing sugar.`,
       },
     ],
   },
