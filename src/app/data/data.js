@@ -1457,17 +1457,83 @@ const recipes = [
   },
   // DEC 19
   {
-    title: '',
+    title: 'Quick churros',
+    url: 'https://akispetretzikis.com/en/recipe/5976/grhgora-churros',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '270 gr',
+        description: 'water',
+      },
+      {
+        unit: '50 gr',
+        description: 'butter, or margarine',
+      },
+      {
+        unit: '15 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '1 pinch',
+        description: 'salt',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'vanilla extract',
+      },
+      {
+        unit: '150 gr',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '600 ml',
+        description: 'seed oil, for the frying',
+      },
+      {
+        title: 'To serve',
+      },
+      {
+        unit: '200 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '10 gr',
+        description: 'cinnamon',
+      },
+      {
+        description: 'ganache',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Place a pot over high heat and add the water, the butter, the sugar, salt, the vanilla extract, and stir until the butter melts and starts boiling.
+        `,
+      },
+      {
+        description: `Add the flour and mix with a serving spoon for 30-40 seconds, until the moisture is absorbed and the mixture thickened.
+        `,
+      },
+      {
+        description: `Let it cool and transfer it to a pastry bag with a star tip.
+        `,
+      },
+      {
+        description: `Place a frying pan with the seed oil over medium-high heat and let the oil reach 180ο C (350ο F).
+        `,
+      },
+      {
+        description: `Shape the churros into the oil and fry them for 4-5 minutes, until they are cooked through and nicely golden.
+        `,
+      },
+      {
+        title: 'To serve',
+      },
+      {
+        description: `Transfer them -right away- into the bowl where you have already mixed the sugar with the cinnamon.
+        `,
+      },
+      {
+        description: `Alternatively, remove and transfer them to paper towels, and then serve them with chocolate ganache.
+        `,
       },
     ],
   },
