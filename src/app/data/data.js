@@ -1840,17 +1840,88 @@ const recipes = [
   },
   // DEC 23
   {
-    title: '',
+    title: 'Quick soft cookies',
+    url: 'https://akispetretzikis.com/en/recipe/5646/grhgora-soft-cookies',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '80 gr',
+        description: 'butter, at room temperature',
+      },
+      {
+        unit: '100 gr',
+        description: 'dark brown soft sugar',
+      },
+      {
+        unit: '40 gr',
+        description: 'milk',
+      },
+      {
+        unit: '1 pinch',
+        description: 'salt',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'vanilla extract',
+      },
+      {
+        unit: '220 gr',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'baking soda',
+      },
+      {
+        unit: '150 gr',
+        description: 'chocolate couverture',
+      },
+      {
+        title: 'To serve',
+      },
+      {
+        description: 'milk',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `In a bowl add the butter and dark brown soft sugar. Cover the bowl with plastic wrap and put it in the microwave for 1 minute at 800 Watt, until the butter melts.
+        `,
+      },
+      {
+        description: `Remove the plastic wrap and whisk well until the dark brown sugar melts.
+        `,
+      },
+      {
+        description: `Add the milk, the salt, the vanilla extract, the flour, the baking soda, and mix with a spoon until the ingredients are homogenized and a dough is formed.
+        `,
+      },
+      {
+        description: `Finely chop the chocolate and add it to the bowl. Mix with your hands until it is incorporated into the dough.
+        `,
+      },
+      {
+        description: `Divide the dough into 7 equal pieces and shape them into rounds.
+        `,
+      },
+      {
+        description: `Cut a parchment paper sheet into 7 12x12 cm pieces, so that you can put the cookies in the microwave one by one and remove them without breaking.
+        `,
+      },
+      {
+        description: `Place the dough balls onto the parchment paper pieces and press them lightly with your hands, so that they take the shape of a cookie, about 1 cm thick.
+        `,
+      },
+      {
+        description: `Microwave the cookies, one by one, for 1 minute at 800 Watt.
+        `,
+      },
+      {
+        description: `Set the cookies aside, along with the parchment paper, to cool for 10-15 minutes.
+        `,
+      },
+      {
+        description: `Serve optionally with milk.
+        `,
       },
     ],
   },
