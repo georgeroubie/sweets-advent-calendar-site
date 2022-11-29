@@ -1097,17 +1097,38 @@ const recipes = [
   },
   // DEC 15
   {
-    title: '',
+    title: 'Sweet Baked Apples',
+    url: 'https://akispetretzikis.com/en/recipe/774/pshta-mhla',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '4',
+        description: 'apples',
+      },
+      {
+        unit: '4 tablespoons',
+        description: 'brown sugar',
+      },
+      {
+        unit: '4 teaspoons',
+        description: 'cinnamon',
+      },
+      {
+        unit: '2 tablespoons',
+        description: 'butter, cut into small 3 mm cubes',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Peel the apples and remove seeds. Cut in to 0.5 cm slices.
+        `,
+      },
+      {
+        description: `Dip each slice into the sugar. Place 3 slices onto a sheet of aluminum foil. Add 1-2 small cubes of butter in between each slice.
+        `,
+      },
+      {
+        description: `Wrap the aluminum foil around them.  Bake under the grill, on low heat, for 10-15 minutes.
+        `,
       },
     ],
   },
