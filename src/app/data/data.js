@@ -1234,17 +1234,81 @@ const recipes = [
   },
   // DEC 17
   {
-    title: '',
+    title: 'Plum Jam Filled Muffins',
+    url: 'https://akispetretzikis.com/en/recipe/1379/gemista-muffins-me-marmelada-damaskhno',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '200 gr',
+        description: 'butter, softened',
+      },
+      {
+        unit: '200 gr',
+        description: 'brown sugar',
+      },
+      {
+        unit: '3',
+        description: 'eggs',
+      },
+      {
+        unit: '300 gr',
+        description: 'self-rising flour',
+      },
+      {
+        unit: '100 gr',
+        description: 'strained yogurt',
+      },
+      {
+        unit: '1/2 teaspoon',
+        description: 'baking powder',
+      },
+      {
+        unit: '1/2 teaspoon',
+        description: 'baking soda',
+      },
+      {
+        unit: '250 gr',
+        description: 'prune, jam',
+      },
+      {
+        unit: '3 tablespoons',
+        description: 'icing sugar, for sprinkling',
+      },
+      {
+        description: 'salt',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Line a 12 cup muffin pan with paper liners.
+        `,
+      },
+      {
+        description: `Preheat oven to 160* C (320* F) Fan.
+        `,
+      },
+      {
+        description: `Beat the butter and sugar together, until they become lighter in color and a creamy mixture is created. Then add the eggs and beat combined.
+        `,
+      },
+      {
+        description: `Add the flour, yogurt, baking powder and baking soda. Beat until all the ingredients become completely incorporated into the mixture.
+        `,
+      },
+      {
+        description: `Divide batter evenly between the 12 muffin cups.
+        `,
+      },
+      {
+        description: `Bake for 25 minutes, until the muffins rise, are firm to the touch and golden brown.
+        `,
+      },
+      {
+        description: `Remove from oven and let them cool in the pan for 10 minutes. Remove from pan and sprinkle with sugar while still warm.
+        `,
+      },
+      {
+        description: `When completely cool, remove paper liners. Put some jam in a piping tube and fill the muffins from the bottom.
+        `,
       },
     ],
   },
