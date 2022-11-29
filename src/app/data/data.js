@@ -1728,17 +1728,113 @@ const recipes = [
   },
   // DEC 22
   {
-    title: '',
+    title: 'Quick croissants',
+    url: 'https://akispetretzikis.com/en/recipe/1966/eykola-kroyasan',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '200 gr',
+        description: 'cream cheese, at room temperature',
+      },
+      {
+        unit: '230 gr',
+        description: 'butter, at room temperature',
+      },
+      {
+        unit: '250 gr',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '1/2 teaspoon',
+        description: 'salt',
+      },
+      {
+        unit: '50 gr',
+        description: 'milk, for brushing',
+      },
+      {
+        unit: '30 gr',
+        description: 'brown sugar, for sprinkling',
+      },
+      {
+        title: 'For the filling',
+      },
+      {
+        unit: '400 gr',
+        description: 'homemade hazelnut chocolate spread',
+      },
+      {
+        unit: '100 gr',
+        description: 'hazelnuts, finely chopped',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Preheat the oven to 180*C (350* F) set to fan.
+        `,
+      },
+      {
+        description: `In a mixer, add the cream cheese and the butter.
+        `,
+      },
+      {
+        description: `Beat with the paddle attachment until completely combined. (If you don’t have a mixer, you can whisk by hand.)
+        `,
+      },
+      {
+        description: `Add the flour and salt. Beat with the paddle attachment, until the dough becomes very soft.
+        `,
+      },
+      {
+        description: `Divide the dough into 3 pieces.
+        `,
+      },
+      {
+        description: `Shape into balls and cover with plastic wrap.
+        `,
+      },
+      {
+        description: `Refrigerate for 1-2 hours to chill.
+        `,
+      },
+      {
+        description: `While waiting for the dough to chill, combine all of the ingredients for the filling in a bowl and set aside until needed.
+        `,
+      },
+      {
+        description: `When the dough is ready, roll out each piece into a circular disc that is 40 cm in diameter. You will need to use a generous amount of flour to help you roll it out easier. The discs do not have to be completely circular.
+        `,
+      },
+      {
+        description: `Cut each disc into 8 equal-sized pieces, as if cutting a pizza.
+        `,
+      },
+      {
+        description: `Place a level teaspoon of the filling on the inner corner of each piece.
+        `,
+      },
+      {
+        description: `Make an incision in each piece and roll, beginning from the circumference, to create a small croissant.
+        `,
+      },
+      {
+        description: `Transfer to a rimmed baking sheet lined with parchment paper.
+        `,
+      },
+      {
+        description: `Brush the tops with milk or with the beaten egg and sprinkle with some brown sugar if you like.
+        `,
+      },
+      {
+        description: `Repeat the same process with the remaining 2 sheets of the dough.
+        `,
+      },
+      {
+        description: `Bake for about 25 minutes, until golden.
+        `,
+      },
+      {
+        description: `When ready, remove from the oven and immediately remove the croissants from the pan so they don’t stick from the sugar which will have caramelized and become very sticky.
+        `,
       },
     ],
   },
