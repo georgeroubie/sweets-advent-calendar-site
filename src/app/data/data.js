@@ -325,17 +325,72 @@ const recipes = [
   },
   // DEC 4
   {
-    title: '',
+    title: 'Chocolate Pie',
+    url: 'https://akispetretzikis.com/en/recipe/987/pita-sokolatas',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '850 gr',
+        description: 'puff pastry sheets',
+      },
+      {
+        unit: '200 gr',
+        description: 'milk chocolate couverture',
+      },
+      {
+        unit: '125 gr',
+        description: 'almonds, powdered',
+      },
+      {
+        unit: '125 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '125 gr',
+        description: 'butter',
+      },
+      {
+        unit: '2',
+        description: ' eggs',
+      },
+      {
+        unit: '1',
+        description: 'egg yolk',
+      },
+      {
+        unit: '1 pinch',
+        description: 'cinnamon, powder',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: 'Preheat oven to 220* C (420*F) Fan.',
+      },
+      {
+        description: 'Finely chop the chocolate and melt it in a bain marie, without adding any water.',
+      },
+      {
+        description: 'Whisk together the sugar and butter in a bowl, until the mixture becomes smooth and frothy.',
+      },
+      {
+        description:
+          'Add the powdered almonds, melted chocolate, the 2 eggs and cinnamon. Take care to add the eggs one at a time and waiting for each one to be completely incorporated before adding the next one.',
+      },
+      {
+        description:
+          'Unfold the puff pastry in the baking pan that has been lined with parchment paper. Hold onto the cellophane, firmly with one hand, and pull the pastry with the other.',
+      },
+      {
+        description: 'Fill the center with the chocolate mixture, leaving a 2 cm. border all around.',
+      },
+      {
+        description:
+          'Cover with the second sheet of pastry and press down with your fingers all around the edges, for the pastry to stick together. Seal the edges with a fork.',
+      },
+      {
+        description: `Using a pastry brush, brush the surface of the pastry with the egg yolk. This will give it an extra golden color. Then, pierce little holes with the tip of a knife over the top, so that it doesn’t rise while baking.`,
+      },
+      {
+        description: `Bake the pie for about 17 minutes. It should turn a lovely golden brown on both sides.`,
       },
     ],
   },
