@@ -43,7 +43,7 @@ const recipes = [
         description: ' olive oil',
       },
       {
-        unit: '1 teaspoon(s)',
+        unit: '1 teaspoon',
         description: 'cinnamon',
       },
       {
@@ -227,17 +227,99 @@ const recipes = [
   },
   // DEC 3
   {
-    title: '',
+    title: 'Chocolate banana bread',
+    url: 'https://akispetretzikis.com/en/recipe/7011/chocolate-banana-bread',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '300 gr',
+        description: 'bananas, ripe',
+      },
+      {
+        unit: '150 gr',
+        description: 'brown sugar',
+      },
+      {
+        unit: '2',
+        description: 'eggs, medium',
+      },
+      {
+        unit: '80 gr',
+        description: 'butter, melted + extra for the loaf tin',
+      },
+      {
+        unit: '100 gr',
+        description: 'strained yogurt',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'baking soda',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'vanilla extract',
+      },
+      {
+        unit: '150 gr',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '50 gr',
+        description: 'cocoa powder, + extra for the loaf tin',
+      },
+      {
+        description: 'salt',
+      },
+      {
+        unit: '200 gr',
+        description: 'chocolate couverture',
+      },
+      {
+        title: 'To serve',
+      },
+      {
+        unit: '100 gr',
+        description: 'white chocolate couverture, melted',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: 'Preheat the oven to 170°C (340° F) set to fan.',
+      },
+      {
+        description: 'Peel the bananas, add them to a bowl, and mash them with a fork.',
+      },
+      {
+        description: 'Add the sugar, eggs, and butter into the bowl and whisk them well until homogenized.',
+      },
+      {
+        description: 'Add the yogurt and the baking soda, and whisk well.',
+      },
+      {
+        description: 'Add the vanilla extract, flour, cocoa powder, and salt.',
+      },
+      {
+        description: 'Cut the chocolate into small pieces.',
+      },
+      {
+        description: 'Add 100 g of the chocolate couverture into the bowl, and fold gently with a silicone spatula.',
+      },
+      {
+        description: 'Butter a 10x30 cm loaf tin and dust it with some cocoa powder.',
+      },
+      {
+        description: 'Spread the batter into the loaf tin and sprinkle it with the remaining chocolate couverture.',
+      },
+      {
+        description: 'Transfer the loaf tin to the oven and bake the banana bread for 40 minutes.',
+      },
+      {
+        description: 'Remove the loaf tin from the oven and set it aside for 10 minutes until the banana bread cools.',
+      },
+      {
+        description: 'Take the banana bread out of the loaf tin and drizzle it with the melted white chocolate.',
+      },
+      {
+        description: 'Cut it into pieces and serve.',
       },
     ],
   },
