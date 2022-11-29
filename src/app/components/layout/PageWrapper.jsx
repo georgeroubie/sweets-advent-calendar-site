@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { NavLink as _NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import SnowFlakes from './SnowFlakes';
 
@@ -22,6 +23,14 @@ const ChildrenWrapper = styled.div`
   overflow: hidden;
 `;
 
+const NavLink = styled(_NavLink)`
+  text-decoration: underline;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: ${({ theme: { spacing } }) => spacing.xsmall};
+`;
+
 const PageWrapper = ({ children }) => {
   return (
     <Wrapper>
@@ -29,6 +38,7 @@ const PageWrapper = ({ children }) => {
         <SnowFlakes />
         <ChildrenWrapper>{children}</ChildrenWrapper>
       </InnerWrapper>
+      <NavLink to="/about">ABOUT THIS SITE</NavLink>
     </Wrapper>
   );
 };
