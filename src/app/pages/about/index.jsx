@@ -5,7 +5,6 @@ import PageWrapper from '../../components/layout/PageWrapper';
 import Description from '../../components/typography/Description';
 import Subtitle from '../../components/typography/Subtitle';
 import Title from '../../components/typography/Title';
-import Paypal from './Paypal';
 
 const Hyperlink = styled.a`
   text-decoration: underline;
@@ -23,24 +22,21 @@ const About = () => {
     <PageWrapper>
       <Container>
         <Title onBack={onBackHandler}>About</Title>
-        <Subtitle>Donation</Subtitle>
-        <Description>
-          Buy me a coffee or a beer:&nbsp;
-          <Paypal />
-        </Description>
         <Subtitle>Info</Subtitle>
         <Description>An advent calendar with desert recipes.</Description>
         <Subtitle>Recipes</Subtitle>
         <Description>
-          The recipes are not mine, I found them online. In each recipe, you will find the URL of the site where I found
-          it.
+          The recipes are not mine, I found them online in this site:&nbsp;
+          <Hyperlink href="https://akispetretzikis.com/" target="_blank" rel="noreferrer">
+            akispetretzikis.com
+          </Hyperlink>
+          . In each recipe, you will find the URL of the original recipe.
         </Description>
         <Subtitle>Privacy</Subtitle>
         <Description>This site does not use any kind of cookies or tracking.</Description>
         <Subtitle>Code</Subtitle>
         <Description>
-          You can find the code of this web application on my GitHub page. If you like it give the repository a star
-          on&nbsp;
+          You can find the code of this website on my GitHub page. If you like it give the repository a star on&nbsp;
           <Hyperlink
             href="https://github.com/georgeroubie/sweets-advent-calendar-site"
             target="_blank"
