@@ -720,17 +720,74 @@ const recipes = [
   },
   // DEC 10
   {
-    title: '',
+    title: 'Frangipan Muffins',
+    url: 'https://akispetretzikis.com/en/recipe/2053/franzipan-muffins',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '160 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '160 gr',
+        description: 'almond, powder',
+      },
+      {
+        unit: '150 gr',
+        description: 'butter',
+      },
+      {
+        unit: '3',
+        description: 'eggs',
+      },
+      {
+        unit: '80 gr',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '100 gr',
+        description: 'spiced pumpkin spoon sweet, drained from syrup and cut into 0.5 cm cubes',
+      },
+      {
+        unit: '50 gr',
+        description: 'chocolate couverture, drops',
+      },
+      {
+        title: 'For the topping',
+      },
+      {
+        unit: '100 gr',
+        description: 'strained yogurt',
+      },
+      {
+        unit: '2',
+        description: 'spiced pumpkin spoon sweet',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Preheat oven to 190* C (374* F) Fan.`,
+      },
+      {
+        description: `In a mixers bowl, add the sugar, almond powder and butter. Beat on high speed with the whisk attachment, until light and fluffy.`,
+      },
+      {
+        description: `Add the eggs, one at a time, waiting for each addition to become completely incorporated before adding the next. Beat a little longer to allow the mixture to increase in volume.`,
+      },
+      {
+        description: `Turn down the mixers speed. Add the flour, pumpkin spoon sweet and chocolate drops. Beat to combine.`,
+      },
+      {
+        description: `Line a 6 cup muffin pan with baking liners.`,
+      },
+      {
+        description: `Add 60 g of the mixture to each cup.`,
+      },
+      {
+        description: `Bake for 16-18 minutes.`,
+      },
+      {
+        description: `
+        Serve with tipped with yogurt and pieces of pumpkin spoon sweet.`,
       },
     ],
   },
