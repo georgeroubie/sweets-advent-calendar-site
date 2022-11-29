@@ -1,5 +1,6 @@
 # General information
-An advent calendar with desert recipes.
+An [advent calendar](https://sweets-advent-calendar.com) with desert recipes.  
+The recipes are not mine, I found them online. At the end of each recipe, you will find the URL of the original recipe.
 
 # Development
 
