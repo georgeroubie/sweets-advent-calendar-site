@@ -13,7 +13,6 @@ const DaysList = styled.div`
 const Day = styled.div`
   cursor: pointer;
   width: 25%;
-  height: 25%;
   display: inline-flex;
   min-width: 0;
   align-items: center;
@@ -23,9 +22,16 @@ const Day = styled.div`
   border-bottom: ${({ theme: { borderSize, colors } }) => `${borderSize.small} solid ${colors.borderPrimary}`};
   border-right: ${({ theme: { borderSize, colors } }) => `${borderSize.small} solid ${colors.borderPrimary}`};
 
+  &:last-child {
+    width: 100%;
+  }
+
   @media (min-width: ${({ theme: { screens } }) => screens.medium}) {
     width: 20%;
-    height: 20%;
+
+    &:last-child {
+      width: 20%;
+    }
   }
 `;
 
@@ -80,7 +86,7 @@ const Days = ({ setActiveRecipe }) => {
     <DaysList>
       {message && <Notification message={message} setMessage={setMessage} />}
       {days.map((d) => (
-        <Day key={d} ref={dayRef} style={{ height }} onClick={() => handleDayClick(d)}>
+        <Day key={d} ref={d === 1 ? dayRef : undefined} style={{ height }} onClick={() => handleDayClick(d)}>
           {d}
         </Day>
       ))}
