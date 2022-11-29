@@ -952,17 +952,81 @@ const recipes = [
   },
   // DEC 13
   {
-    title: '',
+    title: 'Chocolate caramel saltine florentines',
+    url: 'https://akispetretzikis.com/en/recipe/8/sokolatenies-flwrentines-me-kraker',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '350 gr',
+        description: 'crackers, salted',
+      },
+      {
+        unit: '160 gr',
+        description: 'butter',
+      },
+      {
+        unit: '220 gr',
+        description: 'brown sugar',
+      },
+      {
+        unit: '1 pinch',
+        description: 'salt',
+      },
+      {
+        unit: '1 tablespoon',
+        description: 'vanilla extract',
+      },
+      {
+        unit: '300 gr',
+        description: 'chocolate couverture, finely chopped',
+      },
+      {
+        unit: '50 gr',
+        description: 'almond slivers, toasted',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Preheat oven to 180* C (350* F) Fan.`,
+      },
+      {
+        description: `Line a 25x35 cm baking panwith aluminum foil and parchment paper.
+        `,
+      },
+      {
+        description: `Line the bottom of the pan with a layer of crackers.
+        `,
+      },
+      {
+        description: `In a pot, add the butter, sugar, vanilla extract and salt. Place over medium heat.
+        `,
+      },
+      {
+        description: `Stir continuously for 3 minutes with a wooden spoon, until the sugar melts and turns to caramel.
+        `,
+      },
+      {
+        description: ` As soon as the first bubbles appear, cook for another 3 minutes, remove from heat and immediately pour over the crackers. Spread with a spatula while the caramel is still hot.
+        `,
+      },
+      {
+        description: `Bake for 10-15 minutes.
+        `,
+      },
+      {
+        description: `When ready, remove from oven and add the finely chopped couverture, making sure it completely coats the whole surface of the caramel.
+        `,
+      },
+      {
+        description: `Set aside for 5 minutes to allow the couverture to melt and spread with a spoon.
+        `,
+      },
+      {
+        description: `Sprinkle with toasted almond slivers and set aside to cool.
+        `,
+      },
+      {
+        description: `Break up the Florentines into uneven pieces with your hands and serve.
+        `,
       },
     ],
   },
