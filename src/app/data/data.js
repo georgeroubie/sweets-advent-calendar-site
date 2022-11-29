@@ -137,17 +137,91 @@ const recipes = [
   },
   // DEC 2
   {
-    title: '',
+    title: '4-ingredient chocolate filled donuts',
+    url: 'https://akispetretzikis.com/en/recipe/6972/gemista-donuts-me-4-ylika',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        title: 'For the dough',
+      },
+      {
+        unit: '250 gr',
+        description: 'strained yogurt',
+      },
+      {
+        unit: '250 gr',
+        description: 'self-rising flour',
+      },
+      {
+        unit: '300 gr',
+        description: 'sunflower oil, for the frying',
+      },
+      {
+        title: 'For the filling',
+      },
+      {
+        unit: '170 gr',
+        description: 'instant custard, chocolate flavor',
+      },
+      {
+        unit: '440 ml',
+        description: 'milk, 3,5% fat',
+      },
+      {
+        title: 'To serve',
+      },
+      {
+        description: 'chocolate couverture, melted',
+      },
+      {
+        description: 'chocolate sprinkles, multicolor',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description:
+          'Put the yogurt and the flour into a bowl, mix them with a spoon and then with your hands until you have a smooth dough.',
+      },
+      {
+        description:
+          'Remove the dough from the bowl, wrap it in plastic wrap, and refrigerate it for 30 minutes to rest.',
+      },
+      {
+        description:
+          'Add the milk and the instant chocolate custard into another bowl, and beat them with a hand mixer at high speed, for 4-5 minutes.',
+      },
+      {
+        description:
+          'Transfer the filling to a pastry bag with a tip and refrigerate the custard until it is thick and set.',
+      },
+      {
+        description:
+          'Place a deep frying pan, or a wok, with the sunflower oil over high heat and allow it to heat up well.',
+      },
+      {
+        description:
+          'Remove the dough from the refrigerator, dust your worktop with some flour, and use a rolling pin to roll out the dough until it is 1 cm thick.',
+      },
+      {
+        description:
+          'Cut the dough into smaller pieces -you will cut about 7 to 8- using a round cookie cutter, 10 cm in diameter, and add them to the pan.',
+      },
+      {
+        description:
+          'Fry the donuts in batches, on both sides until they are nicely golden, for 2-3 minutes, and transfer them to a baking pan with paper towels.',
+      },
+      {
+        description: 'Remove the pan from the heat.',
+      },
+      {
+        description:
+          'Remove the pastry bag from the refrigerator and fill the donuts by making a hole on their bottom side.',
+      },
+      {
+        description:
+          'Optionally, you can dip the donuts into melted chocolate and sprinkle them with multicolor sprinkles.',
+      },
+      {
+        description: 'Serve.',
       },
     ],
   },
