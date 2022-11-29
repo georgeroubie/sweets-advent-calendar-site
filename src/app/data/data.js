@@ -1032,17 +1032,66 @@ const recipes = [
   },
   // DEC 14
   {
-    title: '',
+    title: 'Peanut Butter and Jelly Cups',
+    url: 'https://akispetretzikis.com/en/recipe/673/tartakia-me-fystikovoytyro-kai-marmelada',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '250 gr',
+        description: 'chocolate couverture, finely chopped',
+      },
+      {
+        unit: '130 gr',
+        description: 'peanut butter',
+      },
+      {
+        unit: '10-12 teaspoons',
+        description: 'strawberry jam',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Put the chocolate in a small ovenproof dish or bowl. Place over a pot with boiling water. Stir until the chocolate melts.
+        `,
+      },
+      {
+        description: `Set aside so that the chocolate cools a bit. It should be warm. If it is too hot, the cups will crack or break apart.
+        `,
+      },
+      {
+        description: `Place disposable cupcake liners in a 12 cavity cupcake pan (12 or less).
+        `,
+      },
+      {
+        description: `Add 2 teaspoons full of the melted chocolate to each cupcake liner. Fold the liner in half. When you open it back up (unfold it), a thin layer of chocolate will have spread all over the inside of the liner. Add a little more chocolate to the bottom part of the liner (as shown in pictures).
+        `,
+      },
+      {
+        description: `Put pan in freezer for 5 minutes.
+        `,
+      },
+      {
+        description: `Fill each cup with 2 heaping teaspoons of peanut butter. Top with 1 teaspoonful of strawberry jam or honey.
+        `,
+      },
+      {
+        description: `Cover with the remaining chocolate, in this way “sealing” the cups.
+        `,
+      },
+      {
+        description: `Use a spatula to smooth the top of each cup.
+        `,
+      },
+      {
+        description: `Put the pan in freezer for 30-45 minutes.
+        `,
+      },
+      {
+        description: `Remove cups from liners and serve.
+        `,
+      },
+      {
+        description: `They can be stored in the refrigerator for up to 1 week and in the freezer for up to 1 month.
+        `,
       },
     ],
   },
