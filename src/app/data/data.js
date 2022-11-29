@@ -793,17 +793,77 @@ const recipes = [
   },
   // DEC 11
   {
-    title: '',
+    title: 'Ultimate Pancakes',
+    url: 'https://akispetretzikis.com/en/recipe/1441/pancakes',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '200 gr',
+        description: 'strained yogurt',
+      },
+      {
+        unit: '1',
+        description: 'egg',
+      },
+      {
+        unit: '50 ml',
+        description: 'seed oil',
+      },
+      {
+        unit: '1',
+        description: 'pinch salt',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'vanilla extract',
+      },
+      {
+        unit: '50 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '120 gr',
+        description: 'self-rising flour',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'baking soda',
+      },
+      {
+        unit: '1 tablespoon',
+        description: 'butter',
+      },
+      {
+        description: 'maple syrup, to serve',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `In a large bowl, whisk the yogurt, egg, vegetable oil, a pinch of salt, vanilla and 50 g of sugar together, until completely combined.`,
+      },
+      {
+        description: `Add the flour, baking soda and gently whisk, just to combine but do not overmix.`,
+      },
+      {
+        description: `Heat a 30 cm non stick pan over medium heat.`,
+      },
+      {
+        description: `Add a tablespoon of butter and cook over moderate heat. Don't cook over high heat because the pancakes could burn on the outside before completely cooked on the inside.`,
+      },
+      {
+        description: `Add 3 tablespoons of batter to the pan leaving enough space between them as they will spread out. 1 tablespoon for each pancake.`,
+      },
+      {
+        description: `Check the edges and when you see they pancakes are nicely caramelized on one side, use a  spatula to flip them over. About 2-3 minutes on each side. (You will know they are ready when they don't stick to the pan).`,
+      },
+      {
+        description: `When ready, transfer the pancakes to a serving dish. Serve with honey, walnuts, fruits, maple syrup or whatever other toppings you may like.`,
+      },
+      {
+        description: `Wipe the pan with paper towels so that the next batch won't burn.`,
+      },
+      {
+        description: `Add some butter and repeat the process with the remaining batter, until you create a stack of pancakes!
+        `,
       },
     ],
   },
