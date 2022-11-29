@@ -26,11 +26,8 @@ const About = () => {
         <Description>An advent calendar with desert recipes.</Description>
         <Subtitle>Recipes</Subtitle>
         <Description>
-          The recipes are not mine, I found them online in this site:&nbsp;
-          <Hyperlink href="https://akispetretzikis.com/" target="_blank" rel="noreferrer">
-            akispetretzikis.com
-          </Hyperlink>
-          . In each recipe, you will find the URL of the original recipe.
+          The recipes are not mine, I found them online. At the end of each recipe, you will find the URL of the
+          original recipe.
         </Description>
         <Subtitle>Privacy</Subtitle>
         <Description>This site does not use any kind of cookies or tracking.</Description>
