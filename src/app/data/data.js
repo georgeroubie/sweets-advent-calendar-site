@@ -469,17 +469,68 @@ const recipes = [
   },
   // DEC 6
   {
-    title: '',
+    title: '4-ingredient vanilla pound cake',
+    url: 'https://akispetretzikis.com/en/recipe/6964/cake-xwris-mixer-me-4-ylika',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '80 gr',
+        description: 'butter',
+      },
+      {
+        unit: '400 gr',
+        description: 'sweetened condensed milk',
+      },
+      {
+        unit: '4',
+        description: 'eggs',
+      },
+      {
+        unit: '250 gr',
+        description: 'self-rising flour',
+      },
+      {
+        description: 'sweetened condensed milk',
+      },
+      {
+        description: 'chocolate sprinkles',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: 'Preheat the oven to 170°C (340° F) set to fan.',
+      },
+      {
+        description:
+          'Put the butter into a bowl and transfer it to the microwave at 800 Watt, for 30 seconds, until it is melted.',
+      },
+      {
+        description: 'Add the sweetened condensed milk and the melted butter into a large bowl, and whisk them well.',
+      },
+      {
+        description:
+          'Add the eggs to the bowl, one by one, and whisk them well until they are incorporated into the mixture.',
+      },
+      {
+        description: 'Add the flour and whisk well until you have a smooth cake batter.',
+      },
+      {
+        description: 'Butter and flour a 10x30 cm loaf tin and spread the cake batter in it.',
+      },
+      {
+        description: 'Transfer the loaf tin to the oven and bake the cake for 40-45 minutes.',
+      },
+      {
+        description: 'Remove the loaf tin from the oven and set it aside to cool.',
+      },
+      {
+        description: 'Take the cake out of the loaf tin and cut it into slices.',
+      },
+      {
+        description:
+          'Optionally, you can brush a few cake slices with sweetened condensed milk and then dip them in chocolate sprinkles.',
+      },
+      {
+        description: 'Serve.',
       },
     ],
   },
