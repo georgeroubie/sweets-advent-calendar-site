@@ -655,17 +655,66 @@ const recipes = [
   },
   // DEC 9
   {
-    title: '',
+    title: 'Molten Chocolate Puddings',
+    url: 'https://akispetretzikis.com/en/recipe/1727/poytigka-sokolatas',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: `130 gr`,
+        description: `chocolate couverture, finely chopped`,
+      },
+      {
+        unit: `125 gr`,
+        description: `butter`,
+      },
+      {
+        unit: `3`,
+        description: `eggs`,
+      },
+      {
+        unit: `150 gr`,
+        description: `granulated sugar`,
+      },
+      {
+        unit: `30 gr`,
+        description: `all-purpose flour`,
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: `Preheat oven to 200*C (390* F) Fan.
+        `,
+      },
+      {
+        description: `Melt the chocolate and butter in a saucepan over very low heat.
+        `,
+      },
+      {
+        description: `In a large bowl, beat the eggs, sugar and flour with a hand whisk until combined.
+        `,
+      },
+      {
+        description: `Add the sugar and melted butter-chocolate mixture and whisk.
+        `,
+      },
+      {
+        description: `Grease 4 ramekins with butter and dust with cocoa powder. Divide mixture between them evenly.
+        `,
+      },
+      {
+        description: `Always use cocoa powder instead of flour for chocolate desserts like these. It makes for a much nicer presentation. The white flour will make the cake or cream look dirty.
+        `,
+      },
+      {
+        description: `Bake for 10 minutes until the surface forms a crust.
+        `,
+      },
+      {
+        description: `As you can see the time needed for these delicious molten puddings to cook is very little. It’s best to cook them at the very last minute.
+        `,
+      },
+      {
+        description: `Serve IMMEDIATELY along with some cold heavy cream. This is one dessert that CAN’T wait!
+        `,
       },
     ],
   },
