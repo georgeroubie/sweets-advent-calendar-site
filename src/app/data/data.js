@@ -396,17 +396,74 @@ const recipes = [
   },
   // DEC 5
   {
-    title: '',
+    title: 'Black Beer and Strawberry Jam Brownies',
+    url: 'https://akispetretzikis.com/en/recipe/1219/brownies-me-mayrh-mpyra-kai-marmelada-fraoyla',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        unit: '180 gr',
+        description: 'butter',
+      },
+      {
+        unit: '200 gr',
+        description: 'chocolate couverture, broken into pieces',
+      },
+      {
+        unit: '200 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '125 gr',
+        description: 'all-purpose flour, sifted',
+      },
+      {
+        unit: '40 gr',
+        description: 'cocoa powder, powder',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'baking powder',
+      },
+      {
+        unit: '3',
+        description: 'eggs, beaten',
+      },
+      {
+        unit: '200 ml',
+        description: 'beer, dark',
+      },
+      {
+        unit: '200 gr',
+        description: 'strawberry jam',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        description: 'Preheat oven to 180* C (350* F) Fan.',
+      },
+      {
+        description:
+          'Line a 30x20 cm baking pan with parchment paper. Brush baking pan with some butter before lining with parchment paper so that it sticks to the bottom of the pan better. Brush butter onto the parchment paper and sprinkle with some cocoa powder.',
+      },
+      {
+        description:
+          'Fill a pot with water and bring to a simmer over medium heat. Add the butter and chocolate to a metallic bowl and place over the pot of simmering water.',
+      },
+      {
+        description:
+          'Add the sugar to another bowl. Sift the flour, cocoa powder and baking powder and add them to the sugar. Add the melted chocolate, using a wooden spoon. Stir to combine.',
+      },
+      {
+        description: 'Add the beaten eggs and beat with a mixer.',
+      },
+      {
+        description: 'Add the beer and jam. Mix until the mixture is completely combined and turns shiny.',
+      },
+      {
+        description:
+          'Transfer batter to baking pan. Bake for 25 minutes. Insert a knife and if it comes out clean the brownies are ready.',
+      },
+      {
+        description: 'Brownies should always be crunchy on the outside and soft on the inside.',
       },
     ],
   },
