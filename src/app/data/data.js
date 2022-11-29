@@ -2007,17 +2007,156 @@ const recipes = [
   },
   // DEC 25
   {
-    title: '',
+    title: `Akis' Greek Christmas honey cookies - Melomakarona`,
+    url: 'https://akispetretzikis.com/en/recipe/569/ta-melomakarona-toy-akh',
     ingredients: [
       {
-        unit: '',
-        description: '',
+        title: 'For the syrup',
+      },
+      {
+        unit: '500 gr',
+        description: 'water',
+      },
+      {
+        unit: '800 gr',
+        description: 'granulated sugar',
+      },
+      {
+        unit: '150 gr',
+        description: 'honey',
+      },
+      {
+        unit: '3 sticks',
+        description: 'cinnamon',
+      },
+      {
+        unit: '3',
+        description: 'cloves',
+      },
+      {
+        unit: '1',
+        description: 'orange, cut in half',
+      },
+      {
+        title: '1st mixture',
+      },
+      {
+        unit: '400 gr',
+        description: 'orange juice',
+      },
+      {
+        unit: '400 gr',
+        description: 'seed oil',
+      },
+      {
+        unit: '180 gr',
+        description: 'olive oil',
+      },
+      {
+        unit: '50 gr',
+        description: 'icing sugar',
+      },
+      {
+        unit: '1/2 teaspoon',
+        description: 'cloves',
+      },
+      {
+        unit: '2-3 teaspoons',
+        description: 'cinnamon',
+      },
+      {
+        unit: '1/4 teaspoon',
+        description: 'nutmeg',
+      },
+      {
+        unit: '1 teaspoon',
+        description: 'baking soda',
+      },
+      {
+        description: 'orange zest, of 2 oranges',
+      },
+      {
+        title: '2nd mixture',
+      },
+      {
+        unit: '1 kilo',
+        description: 'all-purpose flour',
+      },
+      {
+        unit: '200 gr',
+        description: 'semolina, fine',
+      },
+      {
+        title: 'To serve',
+      },
+      {
+        description: 'honey',
+      },
+      {
+        description: 'walnuts',
       },
     ],
     directions: [
       {
-        subtitle: '',
-        description: '',
+        title: 'For the syrup',
+      },
+      {
+        description: `Boil all of the ingredients for the syrup, apart from the honey, until the sugar melts. Remove from heat. Add the honey and mix till combined.`,
+      },
+      {
+        description: `Let the syrup cool for 3-4 hours. It must be cold by the time the cookies come out from the oven.
+        `,
+      },
+      {
+        description: `You can prepare the syrup from the day before.
+        `,
+      },
+      {
+        title: `For the cookies`,
+      },
+      {
+        description: `Preheat the oven to 190* C (370*F) set to fan.
+        `,
+      },
+      {
+        description: `To make the cookies, you need to prepare 2 separate mixtures.
+        `,
+      },
+      {
+        description: `For the first mixture, add all of the ingredients in a large bowl. Mix, using a hand whisk.
+        `,
+      },
+      {
+        description: `In a separate bowl, add all of the ingredients for the second mixture.
+        `,
+      },
+      {
+        description: `Combine the first and second mixture.
+        `,
+      },
+      {
+        description: `Mix by hand, very gently and for a very short time (10 seconds at the most). If you mix longer the mixture will split or curdle.
+        `,
+      },
+      {
+        description: `Mold cookie dough into oval shapes, 3-4 cm in length, 30 g each. Try to keep them as similar as possible.
+        `,
+      },
+      {
+        description: `Bake for about 20-25 minutes, until they are crunchy and golden brown.
+        `,
+      },
+      {
+        description: `As soon as you remove them from the oven, soak the hot cookies in the syrup for 10 seconds.
+        `,
+      },
+      {
+        description: `Allow them to drain on a wire rack.
+        `,
+      },
+      {
+        description: `Drizzle with honey and chopped walnuts.
+        `,
       },
     ],
   },
