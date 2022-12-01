@@ -1,137 +1,86 @@
 const recipes = [
   // DEC 1
   {
-    title: 'Greek Christmas "melomakarono" pie',
-    url: 'https://akispetretzikis.com/en/recipe/6195/melomakaronopita',
+    title: 'Chocolate chip cookies',
+    url: 'https://akispetretzikis.com/en/recipe/7043/chocolate-chip-cookie',
     ingredients: [
       {
-        title: 'For the syrup',
+        unit: `150 gr`,
+        description: `butter, at room temperature`,
       },
       {
-        unit: '400 gr',
-        description: 'granulated sugar',
+        unit: `110 gr`,
+        description: `granulated sugar`,
       },
       {
-        unit: '250 gr',
-        description: 'water',
+        unit: `110 gr`,
+        description: `dark brown soft sugar`,
       },
       {
-        unit: '1',
-        description: 'stick(s) cinnamon',
+        unit: `1/2 teaspoon`,
+        description: `salt`,
       },
       {
-        unit: '3',
-        description: 'cloves',
+        unit: `1`,
+        description: `egg, medium`,
       },
       {
-        unit: '1/2',
-        description: 'orange',
+        unit: `5 gr`,
+        description: `vanilla extract`,
       },
       {
-        unit: '70 gr',
-        description: 'honey',
+        unit: `200 gr`,
+        description: `all-purpose flour`,
       },
       {
-        title: 'For the melomakarono pie',
+        unit: `1/2 teaspoon`,
+        description: `baking soda`,
       },
       {
-        unit: '200 gr',
-        description: 'seed oil',
+        unit: `00 gr`,
+        description: `chocolate couverture, drops`,
       },
       {
-        unit: '90 gr',
-        description: ' olive oil',
-      },
-      {
-        unit: '1 teaspoon',
-        description: 'cinnamon',
-      },
-      {
-        unit: '1/3 teaspoon(s)',
-        description: 'cloves',
-      },
-      {
-        unit: '1/4 teaspoon(s)',
-        description: 'nutmeg',
-      },
-      {
-        unit: '30 gr',
-        description: 'icing sugar',
-      },
-      {
-        unit: '200 gr',
-        description: 'orange juice',
-      },
-      {
-        description: 'orange juice',
-      },
-      {
-        unit: '1 level teaspoon(s)',
-        description: 'baking soda',
-      },
-      {
-        unit: '500 gr',
-        description: 'all-purpose flour',
-      },
-      {
-        unit: '100 gr',
-        description: 'semolina, fine',
-      },
-      {
-        title: 'To serve',
-      },
-      {
-        description: 'honey',
-      },
-
-      {
-        description: 'walnuts',
+        unit: `100 gr`,
+        description: `milk chocolate couverture, drops`,
       },
     ],
     directions: [
       {
-        title: 'For the syrup',
+        description: `In a mixer’s bowl add the butter, granulated sugar, dark brown soft sugar, and salt, and beat them with the paddle attachment at medium speed for 5 minutes.
+        `,
       },
       {
-        description:
-          'In a saucepan add the sugar, water, cinnamon, cloves, orange, and transfer it over medium heat. Let the mixture come to a boil until the sugar melts.',
+        description: `Add the egg and the vanilla extract, and keep beating until the egg is incorporated into the mixture.
+        `,
       },
       {
-        description: 'Remove it from the heat and add the honey. ',
+        description: `Add the flour, baking soda, and chocolate drops, and beat again for a few seconds, until you have a smooth cookie dough.
+        `,
       },
       {
-        description: 'Set the syrup aside to cool.',
+        description: `Transfer the dough to a bowl, cover it with plastic wrap, and refrigerate it for 2 hours.
+        `,
       },
       {
-        title: 'For the melomakarono pie',
+        description: `Preheat the oven to 180°C (350°F) set to fan.
+        `,
       },
       {
-        description: 'Preheat the oven to 190ο C (370ο F) set to fan.',
+        description: `Line a baking pan with parchment paper.
+        `,
       },
       {
-        description: 'In a bowl add the seed oil, olive oil, cinnamon, cloves, nutmeg, icing sugar, and whisk well.',
+        description: `Divide the cookie dough into 10 equal pieces, shape them into round cookies, arrange them into the pan, and lightly press them down with your hands. Leave a big gap between them as they will spread a lot while baking.
+        `,
       },
       {
-        description: 'Add the orange juice, the zest, the baking soda, and whisk.',
+        description: `Transfer the pan to the oven and bake the cookies for 13-15 minutes.
+        `,
       },
       {
-        description: 'In a bowl add the flour, the semolina, and mix.',
-      },
-      {
-        description:
-          'Transfer the dry ingredients to the bowl with the wet ingredients and fold gently with a serving spoon. ',
-      },
-      {
-        description: 'Transfer the mixture to a 28 cm baking pan and spread it with your hands.',
-      },
-      {
-        description: 'Cut into pieces and bake the pie for 45-50 minutes.',
-      },
-      {
-        description: 'Remove the pie from the oven and immediately pour the cold syrup over it with a ladle.',
-      },
-      {
-        description: 'Allow 1 hour for the syrup to be absorbed and serve with honey and walnuts.',
+        description: `Remove the pan from the oven, set the cookies aside to cool well and become firm, and serve.
+        `,
       },
     ],
   },
