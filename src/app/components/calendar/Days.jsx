@@ -40,7 +40,7 @@ const Days = ({ setActiveRecipe }) => {
   const [height, setHeight] = useState(0);
   const [message, setMessage] = useState(undefined);
   const year = 2022;
-  const month = 11;
+  const month = 12;
   const monthLabel = 'December';
   const days = [...Array(25).keys()].map((d) => d + 1);
 
