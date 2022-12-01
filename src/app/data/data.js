@@ -37,7 +37,7 @@ const recipes = [
         description: `baking soda`,
       },
       {
-        unit: `00 gr`,
+        unit: `100 gr`,
         description: `chocolate couverture, drops`,
       },
       {
